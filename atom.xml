@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>道可道</title>
+  
+  <subtitle>Less is More</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-01-05T10:59:09.869Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Warren Chane</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2020/01/05/hello-world/"/>
+    <id>http://yoursite.com/2020/01/05/hello-world/</id>
+    <published>2020-01-05T10:59:09.869Z</published>
+    <updated>2020-01-05T10:59:09.869Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>es6-export-and-import</title>
+    <link href="http://yoursite.com/2018/10/21/es6-export-and-import/"/>
+    <id>http://yoursite.com/2018/10/21/es6-export-and-import/</id>
+    <published>2018-10-21T02:48:16.000Z</published>
+    <updated>2020-01-06T02:26:35.930Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;在ES5中，如果js文件依赖于其他js文件，那么必须在html中先加载这些依赖，也就是要控制好每一个js文件的加载顺序。&lt;br&gt;ES6中引入了export和import概念，将一个程序拆分成互相依赖的小文件，再用简单的方拼装起来。&lt;/p&gt;
+&lt;h3
+        
+      
+    
+    </summary>
+    
+    
+      <category term="前端" scheme="http://yoursite.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>企业财务报表分析-张新民</title>
+    <link href="http://yoursite.com/2018/10/18/qi-ye-cai-wu-bao-biao-fen-xi-zhang-xin-min/"/>
+    <id>http://yoursite.com/2018/10/18/qi-ye-cai-wu-bao-biao-fen-xi-zhang-xin-min/</id>
+    <published>2018-10-18T14:56:01.000Z</published>
+    <updated>2020-01-06T03:34:48.067Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;财务报表&quot;&gt;&lt;a href=&quot;#财务报表&quot; class=&quot;headerlink&quot; title=&quot;财务报表&quot;&gt;&lt;/a&gt;财务报表&lt;/h1&gt;&lt;h2 id=&quot;资产负债表&quot;&gt;&lt;a href=&quot;#资产负债表&quot; class=&quot;headerlink&quot; title=&quot;资产负债表&quot;&gt;&lt;/a&gt;资产负债表&lt;/h2&gt;&lt;p&gt;资产=负债+股东权益&lt;br&gt;右边归结起来一句话：资源的权益归属。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="投资" scheme="http://yoursite.com/categories/%E6%8A%95%E8%B5%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>韭菜的自我修养-读书笔记</title>
+    <link href="http://yoursite.com/2018/10/18/jiu-cai-de-zi-wo-xiu-yang-du-shu-bi-ji/"/>
+    <id>http://yoursite.com/2018/10/18/jiu-cai-de-zi-wo-xiu-yang-du-shu-bi-ji/</id>
+    <published>2018-10-18T10:34:40.000Z</published>
+    <updated>2020-01-06T02:26:35.930Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/30314653/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;韭菜的自我修养 (豆瓣)&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;韭菜是什么？&lt;br&gt;所谓“韭菜”，指的是在交易市场中没有赚到钱甚至赔钱的势单力薄的散户。&lt;br&gt;另外一个特征就是，他们严重缺乏基本的阅读能力。他们是那种买一辈子东西都不读产品说明书的人，他们是那种无论拿到什么，都要问别人怎么用的人……&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="投资" scheme="http://yoursite.com/categories/%E6%8A%95%E8%B5%84/"/>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《java8实战》笔记</title>
+    <link href="http://yoursite.com/2018/09/30/java8-shi-zhan-bi-ji/"/>
+    <id>http://yoursite.com/2018/09/30/java8-shi-zhan-bi-ji/</id>
+    <published>2018-09-30T07:23:23.000Z</published>
+    <updated>2020-01-06T02:26:35.930Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;lambda-表达式&quot;&gt;&lt;a href=&quot;#lambda-表达式&quot; class=&quot;headerlink&quot; title=&quot;lambda 表达式&quot;&gt;&lt;/a&gt;lambda 表达式&lt;/h1&gt;&lt;h2 id=&quot;什么是lambda表达式&quot;&gt;&lt;a href=&quot;#什么是lambda表达式&quot; class=&quot;headerlink&quot; title=&quot;什么是lambda表达式&quot;&gt;&lt;/a&gt;什么是lambda表达式&lt;/h2&gt;&lt;p&gt;我们可以吧lambda表达式理解为简洁地表示可传递的匿名函数的一种方式：它没有名称，但是有&lt;code&gt;参数列表&lt;/code&gt;、&lt;code&gt;函数主体&lt;/code&gt;、&lt;code&gt;返回类型&lt;/code&gt;，可能还有一个&lt;code&gt;可以抛出的异常列表&lt;/code&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="java" scheme="http://yoursite.com/categories/java/"/>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何选择成长股-读书笔记</title>
+    <link href="http://yoursite.com/2018/09/28/ru-he-xuan-ze-cheng-chang-gu-du-shu-bi-ji/"/>
+    <id>http://yoursite.com/2018/09/28/ru-he-xuan-ze-cheng-chang-gu-du-shu-bi-ji/</id>
+    <published>2018-09-28T09:37:25.000Z</published>
+    <updated>2020-01-06T02:26:35.930Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;在摘录的同时会记录我的思考。&lt;br&gt;&lt;img src=&quot;http://ody8qw44c.bkt.clouddn.com/2018-09-28-15381278286370.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="投资" scheme="http://yoursite.com/categories/%E6%8A%95%E8%B5%84/"/>
+    
+    
+      <category term="读书笔记" scheme="http://yoursite.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常见的经济学定律</title>
+    <link href="http://yoursite.com/2018/09/28/chang-jian-de-jing-ji-xue-ding-lu/"/>
+    <id>http://yoursite.com/2018/09/28/chang-jian-de-jing-ji-xue-ding-lu/</id>
+    <published>2018-09-28T09:24:45.000Z</published>
+    <updated>2020-01-06T02:26:35.930Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;马太效应&quot;&gt;&lt;a href=&quot;#马太效应&quot; class=&quot;headerlink&quot; title=&quot;马太效应&quot;&gt;&lt;/a&gt;马太效应&lt;/h2&gt;&lt;p&gt;《新约马太福音》中有这样一个故事，一个国王远行前，交给三个仆人每人一锭银子，吩咐他们：”你们去做生意，等我回来时，再来见我。”国王回来时，第一个仆人说：”主人，你交给我们的一锭银子，我已赚了10锭。”于是国王奖励他10座城邑。第二个仆人报告说：”主人，你给我的一锭银子，我已赚了5锭。”于是国王例奖励了他5座城邑。第三个仆人报告说：”主人，你给我的一锭银子，我一直包在手巾里存着，我怕丢失，一直没有拿出来。”于是国王命令将第三个仆人的一锭银子也赏给第一个仆人，并且说：”凡是少的，就连他所有的也要夺过来。凡是多的，还要给他，叫他多多益善。”&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="经济学" scheme="http://yoursite.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
+    
+    
+      <category term="笔记" scheme="http://yoursite.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>微信公众号开发中控token服务</title>
+    <link href="http://yoursite.com/2018/09/28/wei-xin-gong-zhong-hao-kai-fa-zhong-kong-token-fu-wu/"/>
+    <id>http://yoursite.com/2018/09/28/wei-xin-gong-zhong-hao-kai-fa-zhong-kong-token-fu-wu/</id>
+    <published>2018-09-28T07:14:37.000Z</published>
+    <updated>2020-01-05T12:24:09.300Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;问题来源&quot;&gt;&lt;a href=&quot;#问题来源&quot; class=&quot;headerlink&quot; title=&quot;问题来源&quot;&gt;&lt;/a&gt;问题来源&lt;/h2&gt;&lt;p&gt;先推荐一个工具包：&lt;br&gt;&lt;a href=&quot;https://github.com/Wechat-Group/weixin-java-tools?utm_source=gold_browser_extension&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Wechat-Group/weixin-java-tools: 全能微信Java开发工具包，支持包括微信支付、开放平台、小程序、企业微信/企业号和公众号等的开发&lt;/a&gt;&lt;br&gt;以微信公众号开发为例，来说明我们所遇到的问题。&lt;br&gt;我们在进行微信公众号开发时，往往会拆分为多个服务，每个服务负责不同的功能，但是公众号的认证id和秘钥只有一套，这个时候如果每个服务都独自去生成access_token，就会浪费access_token的生成次数，以及会失效之前的token。这个时候需要一个独立服务来生成以及管理access_token，其余服务只需要去这个服务取token就行了。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="微信开发" scheme="http://yoursite.com/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>swagger+yapi使用笔记</title>
+    <link href="http://yoursite.com/2018/09/28/swagger-yapi-shi-yong-bi-ji/"/>
+    <id>http://yoursite.com/2018/09/28/swagger-yapi-shi-yong-bi-ji/</id>
+    <published>2018-09-28T03:00:51.000Z</published>
+    <updated>2020-01-06T12:38:29.382Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写接口文档对于RD来说是件非常烦心的事情，而且随着需求迭代，人员流动，接口文档的编写一般面临以下问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;没有及时编写&lt;/li&gt;
+&lt;li&gt;没有及时更新&lt;/li&gt;
+&lt;li&gt;文档零散错落在不同的页面&lt;/li&gt;
+&lt;li&gt;因编写人的行为习惯而又显著的差异&lt;/li&gt;
+&lt;li&gt;因人员流动，交接时不太方便，在wiki中的文档或者word文档比较难自动mock&lt;/li&gt;&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+    
+    
+      <category term="yapi" scheme="http://yoursite.com/tags/yapi/"/>
+    
+      <category term="swagger" scheme="http://yoursite.com/tags/swagger/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用hexo+mweb进行高效写作</title>
+    <link href="http://yoursite.com/2018/09/26/shi-yong-hexo-mweb-jin-xing-gao-xiao-xie-zuo/"/>
+    <id>http://yoursite.com/2018/09/26/shi-yong-hexo-mweb-jin-xing-gao-xiao-xie-zuo/</id>
+    <published>2018-09-26T10:53:31.000Z</published>
+    <updated>2020-01-06T02:26:35.930Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;上一篇文章&lt;a href=&quot;/2018/09/25/shi-yong-hexo-vscode-jin-xing-xie-zuo/&quot; title=&quot;使用hexo+vscode进行写作&quot;&gt;使用hexo+vscode进行写作&lt;/a&gt;中已经介绍如何基于hexo + github-pages搭建自己的博客站点，搭建和部署是及其简单的，困难的是把写作这件事情坚持下来。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用hexo+vscode进行写作</title>
+    <link href="http://yoursite.com/2018/09/25/shi-yong-hexo-vscode-jin-xing-xie-zuo/"/>
+    <id>http://yoursite.com/2018/09/25/shi-yong-hexo-vscode-jin-xing-xie-zuo/</id>
+    <published>2018-09-25T10:41:09.000Z</published>
+    <updated>2020-01-06T02:26:35.930Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;&lt;br&gt;看这个就够了，没有必要看别的教程！&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="工具" scheme="http://yoursite.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+      <category term="hexo" scheme="http://yoursite.com/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
