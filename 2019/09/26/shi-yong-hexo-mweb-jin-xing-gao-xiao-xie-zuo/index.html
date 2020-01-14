@@ -392,21 +392,21 @@ MarkDown文档格式对程序员比较友好，对于普通的">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-09-26
+                    2019-09-26
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-01-06
+                    2020-01-14
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    386
+                    353
                 </div>
                 
 
@@ -435,16 +435,25 @@ MarkDown文档格式对程序员比较友好，对于普通的">
 
 <p>MarkDown文档格式对程序员比较友好，对于普通的文字工作者来说就不是那么友好了，所以需要一把利器来帮忙解决markdown编写的问题。</p>
 <h3 id="mweb设置"><a href="#mweb设置" class="headerlink" title="mweb设置"></a>mweb设置</h3><p><a href="https://zh.mweb.im/" target="_blank" rel="noopener">MWeb - 专业的Markdown写作、记笔记、静态博客生成软件 - MWeb</a><br>里面有详细的购买方法（原创不易，支持一下）</p>
-<p>唯一需要配置的就是设置图床<br>添加图床配置，我用的是七牛云<br><img src="http://ody8qw44c.bkt.clouddn.com/2018-09-26-15379637472167.jpg" alt=""></p>
+<p>唯一需要配置的就是设置图床<br>添加图床配置，我用的是七牛云<br><img src="http://ody8qw44c.bkt.clouddn.com/2018-09-26-15379637472167.jpg" alt=""><br><img src="https://blog-1254114069.cos.ap-beijing.myqcloud.com/blog/2020/01/14/15789889148863.jpg" alt=""></p>
 <p><img src="http://ody8qw44c.bkt.clouddn.com/15379635104626.jpg" alt=""></p>
 <h3 id="next-主题配置"><a href="#next-主题配置" class="headerlink" title="next 主题配置"></a>next 主题配置</h3><p><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html" target="_blank" rel="noopener">hexo的next主题个性化教程:打造炫酷网站 | Moorez</a></p>
 <p><a href="https://shjhe.github.io/hexo/2018/07/04/Hexo%20Next%E4%B8%BB%E9%A2%98%E5%BC%80%E5%90%AF%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1%E5%8F%8A%E9%98%85%E8%AF%BB%E6%97%B6%E9%95%BF/" target="_blank" rel="noopener">Hexo Next主题开启字数统计及阅读时长 | Tyler FE</a></p>
 <p><a href="https://blog.runningcoder.me/2018/04/26/create-personal-blog-with-github-and-hexo-V/" target="_blank" rel="noopener">手摸手教你用github和hexo搭建个人博客（五） | Kevin的博客</a></p>
+<h3 id="hexo-theme-matery"><a href="#hexo-theme-matery" class="headerlink" title="hexo-theme-matery"></a>hexo-theme-matery</h3><p><a href="https://blinkfox.github.io/2018/09/28/qian-duan/hexo-bo-ke-zhu-ti-zhi-hexo-theme-matery-de-jie-shao/" target="_blank" rel="noopener">Hexo博客主题之hexo-theme-matery的介绍 | 闪烁之狐</a></p>
 <h3 id="使用技巧"><a href="#使用技巧" class="headerlink" title="使用技巧"></a>使用技巧</h3><p>引用相同站点内其他资源时采用站点内地址形式<br>post_link 标签</p>
-<pre><code>{% post_link xxx %}</code></pre><h3 id="COS-腾讯云存储-与MWeb结合"><a href="#COS-腾讯云存储-与MWeb结合" class="headerlink" title="COS(腾讯云存储)与MWeb结合"></a>COS(腾讯云存储)与MWeb结合</h3><p><a href="https://github.com/tencentyun/coscmd" target="_blank" rel="noopener">tencentyun/coscmd</a><br>MWeb支持直接上传文件至腾讯云的服务器，用于替代七牛云<br>正如参考文章中说的，每次在开机的时候需要手动启动一下服务，</p>
+<pre class=" language-Hexo"><code class="language-Hexo">{% post_link hello-world %}</code></pre>
+<h3 id="COS-腾讯云存储-与MWeb结合"><a href="#COS-腾讯云存储-与MWeb结合" class="headerlink" title="COS(腾讯云存储)与MWeb结合"></a>COS(腾讯云存储)与MWeb结合</h3><!--[tencentyun/coscmd](https://github.com/tencentyun/coscmd)
+MWeb支持直接上传文件至腾讯云的服务器，用于替代七牛云
+正如参考文章中说的，每次在开机的时候需要手动启动一下服务，
+-->
 <!--coscmd config -a AKIDGK9uQgxSxCD2cyoze3C5i6E5h5GCENaP -s jEUVUFl23oJYYIm35sRmrIUQ6WgbHhrl -b blog-1254114069 -r ap-beijing-->
 
-<pre><code>pm2 start --name qcloud-cos-mweb ./run.sh</code></pre><script>
+<!--```
+pm2 start --name qcloud-cos-mweb ./run.sh
+```-->
+<p>直接使用图床服务<br><img src="https://blog-1254114069.cos.ap-beijing.myqcloud.com/blog/2020/01/14/15789963119518.jpg" alt=""></p>
+<script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -487,7 +496,7 @@ MarkDown文档格式对程序员比较友好，对于普通的">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://warrenchane.github.io/2018/09/26/shi-yong-hexo-mweb-jin-xing-gao-xiao-xie-zuo/">https://warrenchane.github.io/2018/09/26/shi-yong-hexo-mweb-jin-xing-gao-xiao-xie-zuo/</a>
+                    <a href="https://warrenchane.github.io/2019/09/26/shi-yong-hexo-mweb-jin-xing-gao-xiao-xie-zuo/">https://warrenchane.github.io/2019/09/26/shi-yong-hexo-mweb-jin-xing-gao-xiao-xie-zuo/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -572,7 +581,7 @@ MarkDown文档格式对程序员比较友好，对于普通的">
         repo: 'warrenchane.github.io',
         owner: 'warrenchane',
         admin: "warrenchane",
-        id: '2018-09-26T18-53-31',
+        id: '2019-09-26T18-53-31',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -597,54 +606,32 @@ MarkDown文档格式对程序员比较友好，对于普通的">
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2018/09/28/swagger-yapi-shi-yong-bi-ji/">
+                <a href="/2020/01/05/hello-world/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="swagger+yapi使用笔记">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
                         
-                        <span class="card-title">swagger+yapi使用笔记</span>
+                        <span class="card-title">Hello World</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            写接口文档对于RD来说是件非常烦心的事情，而且随着需求迭代，人员流动，接口文档的编写一般面临以下问题：
-
-没有及时编写
-没有及时更新
-文档零散错落在不同的页面
-因编写人的行为习惯而又显著的差异
-因人员流动，交接时不太方便，在wiki中的文档
+                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hex
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2018-09-28
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-01-05
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Java/" class="post-category">
-                                    Java
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Warren Chane
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/yapi/">
-                        <span class="chip bg-color">yapi</span>
-                    </a>
-                    
-                    <a href="/tags/swagger/">
-                        <span class="chip bg-color">swagger</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -656,49 +643,37 @@ MarkDown文档格式对程序员比较友好，对于普通的">
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/09/25/shi-yong-hexo-vscode-jin-xing-xie-zuo/">
+                <a href="/2018/10/21/es6-export-and-import/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="使用hexo+vscode进行写作">
+                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="es6-export-and-import">
                         
-                        <span class="card-title">使用hexo+vscode进行写作</span>
+                        <span class="card-title">es6-export-and-import</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            安装hexoHexo看这个就够了，没有必要看别的教程！
-
-安装next主题开始使用 - NexT 使用文档看这个就够了，没有必要看别的教程！
-vscode常用插件推荐
-Markdown all in one
-Markdown preview
+                            在ES5中，如果js文件依赖于其他js文件，那么必须在html中先加载这些依赖，也就是要控制好每一个js文件的加载顺序。ES6中引入了export和import概念，将一个程序拆分成互相依赖的小文件，再用简单的方拼装起来。
+export官方
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-25
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-10-21
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B7%A5%E5%85%B7/" class="post-category">
-                                    工具
+                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
+                                    前端
                                 </a>
                             
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -847,7 +822,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">22.2k</span>&nbsp;字
+                class="white-color">22.1k</span>&nbsp;字
             
             
             
