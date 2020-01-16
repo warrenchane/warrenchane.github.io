@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://warrenchane.github.io/2020/01/14/wang-yang-ming/</loc>
+    <lastmod>2020-01-16</lastmod>
+  </url>  <url>
     <loc>https://warrenchane.github.io/2019/09/26/shi-yong-hexo-mweb-jin-xing-gao-xiao-xie-zuo/</loc>
     <lastmod>2020-01-14</lastmod>
   </url>  <url>
     <loc>https://warrenchane.github.io/2018/10/18/jiu-cai-de-zi-wo-xiu-yang-du-shu-bi-ji/</loc>
-    <lastmod>2020-01-14</lastmod>
-  </url>  <url>
-    <loc>https://warrenchane.github.io/2018/09/25/shi-yong-hexo-vscode-jin-xing-xie-zuo/</loc>
     <lastmod>2020-01-14</lastmod>
   </url>  <url>
     <loc>https://warrenchane.github.io/2018/09/30/java8-shi-zhan-bi-ji/</loc>
@@ -30,8 +30,5 @@
   </url>  <url>
     <loc>https://warrenchane.github.io/2018/09/28/chang-jian-de-jing-ji-xue-ding-lu/</loc>
     <lastmod>2020-01-06</lastmod>
-  </url>  <url>
-    <loc>https://warrenchane.github.io/2020/01/05/hello-world/</loc>
-    <lastmod>2020-01-05</lastmod>
   </url>
 </urlset>

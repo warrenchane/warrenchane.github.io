@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://warrenchane.github.io/"/>
-  <updated>2020-01-05T10:59:09.869Z</updated>
+  <updated>2020-01-16T03:07:41.577Z</updated>
   <id>https://warrenchane.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://warrenchane.github.io/2020/01/05/hello-world/"/>
-    <id>https://warrenchane.github.io/2020/01/05/hello-world/</id>
-    <published>2020-01-05T10:59:09.869Z</published>
-    <updated>2020-01-05T10:59:09.869Z</updated>
+    <title>王阳明</title>
+    <link href="https://warrenchane.github.io/2020/01/14/wang-yang-ming/"/>
+    <id>https://warrenchane.github.io/2020/01/14/wang-yang-ming/</id>
+    <published>2020-01-14T12:09:54.000Z</published>
+    <updated>2020-01-16T03:07:41.577Z</updated>
     
     <summary type="html">
     
@@ -29,13 +29,18 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;h2 id=&quot;心即理&quot;&gt;&lt;a href=&quot;#心即理&quot; class=&quot;headerlink&quot; title=&quot;心即理&quot;&gt;&lt;/a&gt;心即理&lt;/h2&gt;&lt;p&gt;龙场悟道&lt;/p&gt;
+&lt;h2 id=&quot;致良知&quot;&gt;&lt;a href=&quot;#致良知&quot; class=&quot;headerlink&quot;
         
       
     
     </summary>
     
     
+      <category term="哲学" scheme="https://warrenchane.github.io/categories/%E5%93%B2%E5%AD%A6/"/>
+    
+    
+      <category term="王阳明" scheme="https://warrenchane.github.io/tags/%E7%8E%8B%E9%98%B3%E6%98%8E/"/>
     
   </entry>
   
@@ -48,7 +53,7 @@
     
     <summary type="html">
     
-      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;上一篇文章&lt;a href=&quot;/2018/09/25/shi-yong-hexo-vscode-jin-xing-xie-zuo/&quot; title=&quot;使用hexo+vscode进行写作&quot;&gt;使用hexo+vscode进行写作&lt;/a&gt;中已经介绍如何基于hexo + github-pages搭建自己的博客站点，搭建和部署是及其简单的，困难的是把写作这件事情坚持下来。&lt;/p&gt;
+      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;上一篇文章中已经介绍如何基于hexo + github-pages搭建自己的博客站点，搭建和部署是及其简单的，困难的是把写作这件事情坚持下来。&lt;/p&gt;
     
     </summary>
     
@@ -238,27 +243,6 @@
       <category term="yapi" scheme="https://warrenchane.github.io/tags/yapi/"/>
     
       <category term="swagger" scheme="https://warrenchane.github.io/tags/swagger/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用hexo+vscode进行写作</title>
-    <link href="https://warrenchane.github.io/2018/09/25/shi-yong-hexo-vscode-jin-xing-xie-zuo/"/>
-    <id>https://warrenchane.github.io/2018/09/25/shi-yong-hexo-vscode-jin-xing-xie-zuo/</id>
-    <published>2018-09-25T10:41:09.000Z</published>
-    <updated>2020-01-14T08:42:59.969Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://hexo.io/zh-cn/index.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;&lt;br&gt;看这个就够了，没有必要看别的教程！&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="工具" scheme="https://warrenchane.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="hexo" scheme="https://warrenchane.github.io/tags/hexo/"/>
     
   </entry>
   
