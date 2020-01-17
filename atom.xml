@@ -1,27 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>道可道</title>
+  <title>少即是多</title>
   
   <subtitle>Less is More</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://warrenchane.github.io/"/>
-  <updated>2020-01-16T03:07:41.577Z</updated>
+  <updated>2020-01-17T09:21:10.021Z</updated>
   <id>https://warrenchane.github.io/</id>
   
   <author>
-    <name>Warren Chane</name>
+    <name>warrenchane</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>learning-spider</title>
+    <link href="https://warrenchane.github.io/2020/01/17/learning-spider/"/>
+    <id>https://warrenchane.github.io/2020/01/17/learning-spider/</id>
+    <published>2020-01-17T04:02:36.000Z</published>
+    <updated>2020-01-17T09:21:10.021Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;需要学习的库&quot;&gt;&lt;a href=&quot;#需要学习的库&quot; class=&quot;headerlink&quot; title=&quot;需要学习的库&quot;&gt;&lt;/a&gt;需要学习的库&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://requests.readthedocs.io/en/master/&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://warrenchane.github.io/categories/python/"/>
+    
+    
+      <category term="自动化测试" scheme="https://warrenchane.github.io/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
+    
+      <category term="爬虫" scheme="https://warrenchane.github.io/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tq-learning</title>
+    <link href="https://warrenchane.github.io/2020/01/16/tq-learning/"/>
+    <id>https://warrenchane.github.io/2020/01/16/tq-learning/</id>
+    <published>2020-01-16T12:08:49.000Z</published>
+    <updated>2020-01-17T03:39:01.290Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;TqSdk&quot;&gt;&lt;a href=&quot;#TqSdk&quot; class=&quot;headerlink&quot; title=&quot;TqSdk&quot;&gt;&lt;/a&gt;TqSdk&lt;/h1&gt;&lt;p&gt;官方文档：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="python" scheme="https://warrenchane.github.io/categories/python/"/>
+    
+    
+      <category term="futures" scheme="https://warrenchane.github.io/tags/futures/"/>
+    
+  </entry>
+  
+  <entry>
     <title>王阳明</title>
     <link href="https://warrenchane.github.io/2020/01/14/wang-yang-ming/"/>
     <id>https://warrenchane.github.io/2020/01/14/wang-yang-ming/</id>
     <published>2020-01-14T12:09:54.000Z</published>
-    <updated>2020-01-16T03:07:41.577Z</updated>
+    <updated>2020-01-17T02:01:38.545Z</updated>
     
     <summary type="html">
     

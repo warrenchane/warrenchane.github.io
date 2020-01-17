@@ -4,6 +4,58 @@
   
     
     <entry>
+      <title>learning-spider</title>
+      <link href="/2020/01/17/learning-spider/"/>
+      <url>/2020/01/17/learning-spider/</url>
+      
+        <content type="html"><![CDATA[<h1 id="需要学习的库"><a href="#需要学习的库" class="headerlink" title="需要学习的库"></a>需要学习的库</h1><p><a href="https://requests.readthedocs.io/en/master/" target="_blank" rel="noopener">Requests: HTTP for Humans™ — Requests 2.22.0 documentation</a></p><p><a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/" target="_blank" rel="noopener">Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation</a></p><h2 id="练练手"><a href="#练练手" class="headerlink" title="练练手"></a>练练手</h2><p><a href="https://zhuanlan.zhihu.com/p/21320392?refer=passer" target="_blank" rel="noopener">免费实用的API接口 - 知乎</a> </p><h1 id="Requests-学习"><a href="#Requests-学习" class="headerlink" title="Requests 学习"></a>Requests 学习</h1><h2 id="开发哲学"><a href="#开发哲学" class="headerlink" title="开发哲学"></a>开发哲学</h2><blockquote><p>Beautiful is better than ugly.(美丽优于丑陋)<br>Explicit is better than implicit.(直白优于含蓄)<br>Simple is better than complex.(简单优于复杂)<br>Complex is better than complicated.(复杂优于繁琐)<br>Readability counts.(可读性很重要)</p></blockquote><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><pre class=" language-bash"><code class="language-bash">pip <span class="token function">install</span> requests</code></pre><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><h3 id="请求"><a href="#请求" class="headerlink" title="请求"></a>请求</h3><pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> requestsr <span class="token operator">=</span> requests<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">'https://api.github.com/events'</span><span class="token punctuation">)</span>r <span class="token operator">=</span> requests<span class="token punctuation">.</span>post<span class="token punctuation">(</span><span class="token string">'http://httpbin.org/post'</span><span class="token punctuation">,</span> data <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'key'</span><span class="token punctuation">:</span><span class="token string">'value'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>r <span class="token operator">=</span> requests<span class="token punctuation">.</span>put<span class="token punctuation">(</span><span class="token string">'http://httpbin.org/put'</span><span class="token punctuation">,</span> data <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'key'</span><span class="token punctuation">:</span><span class="token string">'value'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>r <span class="token operator">=</span> requests<span class="token punctuation">.</span>delete<span class="token punctuation">(</span><span class="token string">'http://httpbin.org/delete'</span><span class="token punctuation">)</span>r <span class="token operator">=</span> requests<span class="token punctuation">.</span>head<span class="token punctuation">(</span><span class="token string">'http://httpbin.org/get'</span><span class="token punctuation">)</span>r <span class="token operator">=</span> requests<span class="token punctuation">.</span>options<span class="token punctuation">(</span><span class="token string">'http://httpbin.org/get'</span><span class="token punctuation">)</span>payload <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'key1'</span><span class="token punctuation">:</span> <span class="token string">'value1'</span><span class="token punctuation">,</span> <span class="token string">'key2'</span><span class="token punctuation">:</span> <span class="token string">'value2'</span><span class="token punctuation">}</span>r <span class="token operator">=</span> requests<span class="token punctuation">.</span>get<span class="token punctuation">(</span><span class="token string">"http://httpbin.org/get"</span><span class="token punctuation">,</span> params<span class="token operator">=</span>payload<span class="token punctuation">)</span></code></pre><p>其中 data 属性用于传递body属性，params用于传递url 参数.</p><p>如果想要传递cookies到服务器，可以使用cookies参数</p><p>如果想要传递headers到服务器，可以使用headers参数<br>下图是完整的列表<br><img src="https://blog-1254114069.cos.ap-beijing.myqcloud.com/blog/2020/01/17/15792515222074.jpg" alt=""></p><h3 id="返回"><a href="#返回" class="headerlink" title="返回"></a>返回</h3><p><code>r</code>保存的是一个response对象，对象中的属性如下：</p><table><thead><tr><th>属性名或者方法</th><th>属性含义</th></tr></thead><tbody><tr><td>status_code</td><td>响应状态码</td></tr><tr><td>headers</td><td>响应头</td></tr><tr><td>json()</td><td>返回内容为JSON</td></tr><tr><td>content</td><td>二进制响应内容</td></tr><tr><td>raw</td><td>原始响应内容</td></tr></tbody></table><h3 id="证书"><a href="#证书" class="headerlink" title="证书"></a>证书</h3><h3 id="身份认证"><a href="#身份认证" class="headerlink" title="身份认证"></a>身份认证</h3><p>基本身份认证<br>OAuth 认证<br>OAuth2 认证</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自动化测试 </tag>
+            
+            <tag> 爬虫 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tq-learning</title>
+      <link href="/2020/01/16/tq-learning/"/>
+      <url>/2020/01/16/tq-learning/</url>
+      
+        <content type="html"><![CDATA[<h1 id="TqSdk"><a href="#TqSdk" class="headerlink" title="TqSdk"></a>TqSdk</h1><p>官方文档：<a href="https://doc.shinnytech.com/tqsdk/latest/intro.html" target="_blank" rel="noopener">TqSdk 介绍 — TianQin Python SDK 1.5.1 文档</a><br>对照米匡学习：<a href="http://rqalpha.io/zh_CN/latest/intro/overview.html" target="_blank" rel="noopener">介绍 — rqalpha 3.4.x 文档</a></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><pre class=" language-bash"><code class="language-bash">pip <span class="token function">install</span> tqsdk</code></pre><h2 id="基础属性"><a href="#基础属性" class="headerlink" title="基础属性"></a>基础属性</h2><h3 id="交易所代码"><a href="#交易所代码" class="headerlink" title="交易所代码"></a>交易所代码</h3><table><thead><tr><th>交易所</th><th>代码</th></tr></thead><tbody><tr><td>XSHE</td><td>深交所</td></tr><tr><td>XSHG</td><td>上交所</td></tr><tr><td>DCE</td><td>大连商品交易所</td></tr><tr><td>SHFE</td><td>上海期货交易所</td></tr><tr><td>CFFEX</td><td>中国金融期货交易所</td></tr><tr><td>CZCE</td><td>郑州商品交易所</td></tr></tbody></table><h3 id="期货合约代码"><a href="#期货合约代码" class="headerlink" title="期货合约代码"></a>期货合约代码</h3><table><thead><tr><th>品种</th><th>品种代码</th><th>示例合约</th></tr></thead><tbody><tr><td>白糖</td><td>SR</td><td>SR005表示白糖2005合约</td></tr></tbody></table><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> python </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> futures </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>王阳明</title>
       <link href="/2020/01/14/wang-yang-ming/"/>
       <url>/2020/01/14/wang-yang-ming/</url>
