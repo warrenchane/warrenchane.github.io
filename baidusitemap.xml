@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://warrenchane.github.io/2020/01/17/learning-spider/</loc>
+    <lastmod>2020-01-18</lastmod>
+  </url>  <url>
     <loc>https://warrenchane.github.io/2018/09/28/ru-he-xuan-ze-cheng-chang-gu-du-shu-bi-ji/</loc>
     <lastmod>2020-01-18</lastmod>
   </url>  <url>
@@ -9,9 +12,6 @@
   </url>  <url>
     <loc>https://warrenchane.github.io/2019/09/26/shi-yong-hexo-mweb-jin-xing-gao-xiao-xie-zuo/</loc>
     <lastmod>2020-01-18</lastmod>
-  </url>  <url>
-    <loc>https://warrenchane.github.io/2020/01/17/learning-spider/</loc>
-    <lastmod>2020-01-17</lastmod>
   </url>  <url>
     <loc>https://warrenchane.github.io/2020/01/16/tq-learning/</loc>
     <lastmod>2020-01-17</lastmod>
