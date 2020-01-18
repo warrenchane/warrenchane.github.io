@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://warrenchane.github.io/2018/09/30/java8-shi-zhan-bi-ji/</loc>
+    
+    <lastmod>2020-01-18T10:25:16.172Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://warrenchane.github.io/2020/01/17/learning-spider/</loc>
     
     <lastmod>2020-01-18T10:00:57.331Z</lastmod>
@@ -40,13 +47,6 @@
     <loc>https://warrenchane.github.io/2020/01/14/wang-yang-ming/</loc>
     
     <lastmod>2020-01-17T02:01:38.545Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://warrenchane.github.io/2018/09/30/java8-shi-zhan-bi-ji/</loc>
-    
-    <lastmod>2020-01-14T08:40:18.210Z</lastmod>
     
   </url>
   
