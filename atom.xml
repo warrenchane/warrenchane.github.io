@@ -181,7 +181,7 @@
     <link href="https://warrenchane.com/13066.html"/>
     <id>https://warrenchane.com/13066.html</id>
     <published>2020-01-14T12:09:54.000Z</published>
-    <updated>2020-01-19T07:13:22.290Z</updated>
+    <updated>2020-01-19T12:30:40.695Z</updated>
     
     <summary type="html">
     
@@ -197,7 +197,9 @@
     </summary>
     
     
-      <category term="哲学 - 心学" scheme="https://warrenchane.com/categories/%E5%93%B2%E5%AD%A6-%E5%BF%83%E5%AD%A6/"/>
+      <category term="哲学" scheme="https://warrenchane.com/categories/%E5%93%B2%E5%AD%A6/"/>
+    
+      <category term="心学" scheme="https://warrenchane.com/categories/%E5%93%B2%E5%AD%A6/%E5%BF%83%E5%AD%A6/"/>
     
     
       <category term="王阳明" scheme="https://warrenchane.com/tags/%E7%8E%8B%E9%98%B3%E6%98%8E/"/>
