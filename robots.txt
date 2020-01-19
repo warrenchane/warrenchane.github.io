@@ -12,5 +12,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: https://warrenchane.info/sitemap.xml
-Sitemap: https://warrenchane.info/baidusitemap.xml
+Sitemap: https://warrenchane.com/sitemap.xml
+Sitemap: https://warrenchane.com/baidusitemap.xml
