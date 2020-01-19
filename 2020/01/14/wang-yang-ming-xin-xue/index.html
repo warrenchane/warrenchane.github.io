@@ -4,9 +4,16 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="es6-export-and-import, 少即是多">
-    <meta name="description" content="在ES5中，如果js文件依赖于其他js文件，那么必须在html中先加载这些依赖，也就是要控制好每一个js文件的加载顺序。ES6中引入了export和import概念，将一个程序拆分成互相依赖的小文件，再用简单的方拼装起来。
-export官方">
+    <meta name="keywords" content="王阳明-心学, 少即是多">
+    <meta name="description" content="心即理龙场悟道
+致良知江西平叛
+四句教南征广西
+
+无善无恶心之体有善有恶意之动知善知恶是良知为善去恶是格物
+
+破山中贼易，破心中贼难剿匪之前
+知行合一
+        document.querySelectorAll(&#39;.github-e">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -14,7 +21,7 @@ export官方">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>es6-export-and-import | 少即是多</title>
+    <title>王阳明-心学 | 少即是多</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -220,12 +227,12 @@ export官方">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/22.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">es6-export-and-import</h1>
+                    <h1 class="description center-align post-title">王阳明-心学</h1>
                 </div>
             </div>
         </div>
@@ -340,9 +347,13 @@ export官方">
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/%E7%8E%8B%E9%98%B3%E6%98%8E/">
+                                <span class="chip bg-color">王阳明</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -350,8 +361,8 @@ export官方">
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%89%8D%E7%AB%AF/" class="post-category">
-                                前端
+                            <a href="/categories/%E5%93%B2%E5%AD%A6-%E5%BF%83%E5%AD%A6/" class="post-category">
+                                哲学 - 心学
                             </a>
                         
                     </div>
@@ -363,28 +374,28 @@ export官方">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-10-21
+                    2020-01-14
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-01-14
+                    2020-01-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    769
+                    119
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    1 分
                 </div>
                 
 
@@ -400,61 +411,14 @@ export官方">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>在ES5中，如果js文件依赖于其他js文件，那么必须在html中先加载这些依赖，也就是要控制好每一个js文件的加载顺序。<br>ES6中引入了export和import概念，将一个程序拆分成互相依赖的小文件，再用简单的方拼装起来。</p>
-<h3 id="export"><a href="#export" class="headerlink" title="export"></a>export</h3><p>官方解释：</p>
+                <h2 id="心即理"><a href="#心即理" class="headerlink" title="心即理"></a>心即理</h2><p>龙场悟道</p>
+<h2 id="致良知"><a href="#致良知" class="headerlink" title="致良知"></a>致良知</h2><p>江西平叛</p>
+<h2 id="四句教"><a href="#四句教" class="headerlink" title="四句教"></a>四句教</h2><p>南征广西</p>
 <blockquote>
-<p>一个模块就是一个独立的文件。该文件内部的所有变量，外部无法获取。如果你希望外部能够读取模块内部的某个变量，就必须使用export关键字输出该变量。</p>
+<p>无善无恶心之体<br>有善有恶意之动<br>知善知恶是良知<br>为善去恶是格物</p>
 </blockquote>
-<p>理解：一个模块可以理解为一个类，引用这个类的文件无法获取类里面的所有变量(类似于类属性设置为private)，想要让引用它的文件，可以访问内部变量必须用export关键字输出(类似于属性设置为public)，总之一句话，要使用引用文件内部的变量只能使用export关键字输出。</p>
-<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">//输出变量用法1</span>
-<span class="token keyword">export</span> <span class="token keyword">var</span> firstName <span class="token operator">=</span> <span class="token string">'Michael'</span><span class="token punctuation">;</span>
-<span class="token keyword">export</span> <span class="token keyword">var</span> lastName <span class="token operator">=</span> <span class="token string">'Jackson'</span><span class="token punctuation">;</span>
-<span class="token keyword">export</span> <span class="token keyword">var</span> year <span class="token operator">=</span> <span class="token number">1958</span><span class="token punctuation">;</span>
-
-<span class="token comment" spellcheck="true">//输出变量用法2</span>
-<span class="token keyword">var</span> firstName <span class="token operator">=</span> <span class="token string">'Michael'</span><span class="token punctuation">;</span>
-<span class="token keyword">var</span> lastName <span class="token operator">=</span> <span class="token string">'Jackson'</span><span class="token punctuation">;</span>
-<span class="token keyword">var</span> year <span class="token operator">=</span> <span class="token number">1958</span><span class="token punctuation">;</span>
-<span class="token keyword">export</span> <span class="token punctuation">{</span>firstName<span class="token punctuation">,</span> lastName<span class="token punctuation">,</span> year<span class="token punctuation">}</span><span class="token punctuation">;</span>
-
-<span class="token comment" spellcheck="true">//输出函数用法1</span>
-<span class="token keyword">export</span> <span class="token keyword">function</span> <span class="token function">multiply</span><span class="token punctuation">(</span>x<span class="token punctuation">,</span> y<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  <span class="token keyword">return</span> x <span class="token operator">*</span> y<span class="token punctuation">;</span>
-<span class="token punctuation">}</span><span class="token punctuation">;</span>
-<span class="token comment" spellcheck="true">//输出函数用法2</span>
-<span class="token keyword">function</span> <span class="token function">v1</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span>
-<span class="token keyword">function</span> <span class="token function">v2</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span>
-
-<span class="token keyword">export</span> <span class="token punctuation">{</span>
-  v1 <span class="token keyword">as</span> streamV1<span class="token punctuation">,</span>
-  v2 <span class="token keyword">as</span> streamV2<span class="token punctuation">,</span>
-  v2 <span class="token keyword">as</span> streamLatestVersion
-<span class="token punctuation">}</span><span class="token punctuation">;</span>
-
-<span class="token comment" spellcheck="true">//输出类</span>
-<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token keyword">class</span> <span class="token punctuation">{</span> <span class="token operator">...</span> <span class="token punctuation">}</span></code></pre>
-<h3 id="import"><a href="#import" class="headerlink" title="import"></a>import</h3><p>使用export命令定义了模块的对外接口以后，其他JS文件就可以通过import命令加载这个模块。</p>
-<p>示例：</p>
-<pre class=" language-js"><code class="language-js"><span class="token comment" spellcheck="true">// main.js</span>
-<span class="token keyword">import</span> <span class="token punctuation">{</span>firstName<span class="token punctuation">,</span> lastName<span class="token punctuation">,</span> year<span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">'./profile'</span><span class="token punctuation">;</span>
-
-<span class="token keyword">function</span> <span class="token function">setName</span><span class="token punctuation">(</span>element<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-  element<span class="token punctuation">.</span>textContent <span class="token operator">=</span> firstName <span class="token operator">+</span> <span class="token string">' '</span> <span class="token operator">+</span> lastName<span class="token punctuation">;</span>
-<span class="token punctuation">}</span>
-<span class="token comment" spellcheck="true">// 说明：上面的代码中，import命令加载profile.js文件，并从中输入变量，import命令接受一对大括号，里面指定要从其他模块导入的变量名。大括号里面的变量名，必须与被导入模块（profile.js）对外接口的名称相同。如果想为输入的变量重新取一个名字，import命令要使用as关键字，将输入的变量重命名。</span>
-<span class="token comment" spellcheck="true">// 注意，这里import命令中的内容，需要是export命令输出的内容。</span></code></pre>
-<h3 id="export-default"><a href="#export-default" class="headerlink" title="export default"></a>export default</h3><p>从前面的例子可以看出，使用import命令的时候，用户需要知道所要加载的变量名或函数名，否则无法加载。但是，用户肯定希望快速上手，未必愿意阅读文档，去了解模块有哪些属性和方法。</p>
-<p>为了给用户提供方便，让他们不用阅读文档就能加载模块，就要用到export default命令，为模块指定默认输出。</p>
-<p>举例说明之：</p>
-<pre><code>// export-default.js
-export default function () {
-  console.log('foo');
-}
-
-// import-default.js
-import customName from './export-default';
-customName(); // 'foo'</code></pre><p>上面代码是一个模块文件 export-default.js，它的默认输出是一个函数，其他模块加载该模块的时候，import命令可以为该匿名函数指定任意名字。</p>
-<script>
+<h2 id="破山中贼易，破心中贼难"><a href="#破山中贼易，破心中贼难" class="headerlink" title="破山中贼易，破心中贼难"></a>破山中贼易，破心中贼难</h2><p>剿匪之前</p>
+<h2 id="知行合一"><a href="#知行合一" class="headerlink" title="知行合一"></a>知行合一</h2><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -497,7 +461,7 @@ customName(); // 'foo'</code></pre><p>上面代码是一个模块文件 export-d
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://warrenchane.com/2018/10/21/es6-export-and-import/">https://warrenchane.com/2018/10/21/es6-export-and-import/</a>
+                    <a href="https://warrenchane.com/2020/01/14/wang-yang-ming-xin-xue/">https://warrenchane.com/2020/01/14/wang-yang-ming-xin-xue/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -534,7 +498,11 @@ customName(); // 'foo'</code></pre><p>上面代码是一个模块文件 export-d
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/%E7%8E%8B%E9%98%B3%E6%98%8E/">
+                                    <span class="chip bg-color">王阳明</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -703,7 +671,7 @@ customName(); // 'foo'</code></pre><p>上面代码是一个模块文件 export-d
         repo: 'warrenchane.github.io',
         owner: 'warrenchane',
         admin: "warrenchane",
-        id: '2018-10-21T10-48-16',
+        id: '2020-01-14T20-09-54',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -728,6 +696,65 @@ customName(); // 'foo'</code></pre><p>上面代码是一个模块文件 export-d
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
+                <a href="/2020/01/16/tq-learning/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="tq-learning">
+                        
+                        <span class="card-title">tq-learning</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            TqSdk官方文档：TqSdk 介绍 — TianQin Python SDK 1.5.1 文档对照米匡学习：介绍 — rqalpha 3.4.x 文档
+安装pip install tqsdk
+基础属性交易所代码
+
+
+交易所
+代码
+
+
+
+X
+                        
+                    </div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-01-16
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/python/" class="post-category">
+                                    python
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/futures/">
+                        <span class="chip bg-color">futures</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
                 <a href="/2019/09/26/shi-yong-hexo-mweb-jin-xing-gao-xiao-xie-zuo/">
                     <div class="card-image">
                         
@@ -748,9 +775,9 @@ MarkDown文档格式对程序员比较友好，对于普通的文字工作者来
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2019-09-26
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-09-26
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -770,49 +797,6 @@ MarkDown文档格式对程序员比较友好，对于普通的文字工作者来
                         <span class="chip bg-color">hexo</span>
                     </a>
                     
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
-            </div>
-            <div class="card">
-                <a href="/2018/10/18/qi-ye-cai-wu-bao-biao-fen-xi-zhang-xin-min/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="企业财务报表分析-张新民">
-                        
-                        <span class="card-title">企业财务报表分析-张新民</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            财务报表资产负债表资产=负债+股东权益右边归结起来一句话：资源的权益归属。
-
-资产分类按照流动性分可以分为流动资产与非流动资产流动资产：一年内（也可以说是一个经营周期，因为房地产等特殊行业一个经营周期一般为3年以上）可变现为货币的资产主要包
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-10-18
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E6%8A%95%E8%B5%84/" class="post-category">
-                                    投资
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
                 </div>
                 
             </div>
@@ -949,13 +933,6 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </main>
 
 
-<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-<script>
-    MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$', '$'], ['\(', '\)']]}
-    });
-</script>
-
 
     <footer class="page-footer bg-color">
     <div class="container row center-align" style="margin-bottom: 15px !important;">
@@ -968,7 +945,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">28.1k</span>&nbsp;字
+                class="white-color">27.4k</span>&nbsp;字
             
             
             

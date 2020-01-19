@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://warrenchane.com/"/>
-  <updated>2020-01-19T06:40:44.064Z</updated>
+  <updated>2020-01-19T06:47:03.992Z</updated>
   <id>https://warrenchane.com/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>传媒行业投资备忘录</title>
-    <link href="https://warrenchane.com/2020/01/19/chuan-mei-xing-ye-bei-wang-lu/"/>
-    <id>https://warrenchane.com/2020/01/19/chuan-mei-xing-ye-bei-wang-lu/</id>
+    <link href="https://warrenchane.com/2020/01/19/chuan-mei-xing-ye-tou-zi-bei-wang-lu/"/>
+    <id>https://warrenchane.com/2020/01/19/chuan-mei-xing-ye-tou-zi-bei-wang-lu/</id>
     <published>2020-01-19T06:40:03.000Z</published>
-    <updated>2020-01-19T06:40:44.064Z</updated>
+    <updated>2020-01-19T06:47:03.992Z</updated>
     
     <summary type="html">
     
@@ -96,11 +96,11 @@
   </entry>
   
   <entry>
-    <title>技术团队管理——项目管理</title>
+    <title>技术团队管理-项目管理</title>
     <link href="https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-xiang-mu-guan-li/"/>
     <id>https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-xiang-mu-guan-li/</id>
     <published>2020-01-19T02:11:53.000Z</published>
-    <updated>2020-01-19T06:33:52.989Z</updated>
+    <updated>2020-01-19T06:47:41.385Z</updated>
     
     <summary type="html">
     
@@ -177,11 +177,11 @@
   </entry>
   
   <entry>
-    <title>王阳明</title>
-    <link href="https://warrenchane.com/2020/01/14/wang-yang-ming/"/>
-    <id>https://warrenchane.com/2020/01/14/wang-yang-ming/</id>
+    <title>王阳明-心学</title>
+    <link href="https://warrenchane.com/2020/01/14/wang-yang-ming-xin-xue/"/>
+    <id>https://warrenchane.com/2020/01/14/wang-yang-ming-xin-xue/</id>
     <published>2020-01-14T12:09:54.000Z</published>
-    <updated>2020-01-17T02:01:38.545Z</updated>
+    <updated>2020-01-19T06:47:27.445Z</updated>
     
     <summary type="html">
     
@@ -197,7 +197,7 @@
     </summary>
     
     
-      <category term="哲学" scheme="https://warrenchane.com/categories/%E5%93%B2%E5%AD%A6/"/>
+      <category term="哲学 - 心学" scheme="https://warrenchane.com/categories/%E5%93%B2%E5%AD%A6-%E5%BF%83%E5%AD%A6/"/>
     
     
       <category term="王阳明" scheme="https://warrenchane.com/tags/%E7%8E%8B%E9%98%B3%E6%98%8E/"/>
@@ -222,32 +222,6 @@
     
     
       <category term="hexo" scheme="https://warrenchane.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>es6-export-and-import</title>
-    <link href="https://warrenchane.com/2018/10/21/es6-export-and-import/"/>
-    <id>https://warrenchane.com/2018/10/21/es6-export-and-import/</id>
-    <published>2018-10-21T02:48:16.000Z</published>
-    <updated>2020-01-14T08:33:27.884Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;在ES5中，如果js文件依赖于其他js文件，那么必须在html中先加载这些依赖，也就是要控制好每一个js文件的加载顺序。&lt;br&gt;ES6中引入了export和import概念，将一个程序拆分成互相依赖的小文件，再用简单的方拼装起来。&lt;/p&gt;
-&lt;h3
-        
-      
-    
-    </summary>
-    
-    
-      <category term="前端" scheme="https://warrenchane.com/categories/%E5%89%8D%E7%AB%AF/"/>
-    
     
   </entry>
   
