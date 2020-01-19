@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://warrenchane.com/"/>
-  <updated>2020-01-19T06:28:12.188Z</updated>
+  <updated>2020-01-19T06:40:44.064Z</updated>
   <id>https://warrenchane.com/</id>
   
   <author>
@@ -17,11 +17,90 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>传媒行业投资备忘录</title>
+    <link href="https://warrenchane.com/2020/01/19/chuan-mei-xing-ye-bei-wang-lu/"/>
+    <id>https://warrenchane.com/2020/01/19/chuan-mei-xing-ye-bei-wang-lu/</id>
+    <published>2020-01-19T06:40:03.000Z</published>
+    <updated>2020-01-19T06:40:44.064Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;2B-to-2C-转换&quot;&gt;&lt;a href=&quot;#2B-to-2C-转换&quot; class=&quot;headerlink&quot; title=&quot;2B to 2C 转换&quot;&gt;&lt;/a&gt;2B to 2C
+        
+      
+    
+    </summary>
+    
+    
+      <category term="投资" scheme="https://warrenchane.com/categories/%E6%8A%95%E8%B5%84/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>技术团队管理-绩效</title>
+    <link href="https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-ji-xiao/"/>
+    <id>https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-ji-xiao/</id>
+    <published>2020-01-19T06:37:33.000Z</published>
+    <updated>2020-01-19T06:37:45.120Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术团队管理" scheme="https://warrenchane.com/categories/%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>技术团队管理-晨会</title>
+    <link href="https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-chen-hui/"/>
+    <id>https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-chen-hui/</id>
+    <published>2020-01-19T06:33:30.000Z</published>
+    <updated>2020-01-19T06:37:04.671Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;站立会议&quot;&gt;&lt;a href=&quot;#站立会议&quot; class=&quot;headerlink&quot; title=&quot;站立会议&quot;&gt;&lt;/a&gt;站立会议&lt;/h1&gt;&lt;h2 id=&quot;如何开&quot;&gt;&lt;a href=&quot;#如何开&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术团队管理" scheme="https://warrenchane.com/categories/%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>技术团队管理——项目管理</title>
     <link href="https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-xiang-mu-guan-li/"/>
     <id>https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-xiang-mu-guan-li/</id>
     <published>2020-01-19T02:11:53.000Z</published>
-    <updated>2020-01-19T06:28:12.188Z</updated>
+    <updated>2020-01-19T06:33:52.989Z</updated>
     
     <summary type="html">
     
@@ -36,7 +115,7 @@
     </summary>
     
     
-      <category term="管理 -  技术团队管理" scheme="https://warrenchane.com/categories/%E7%AE%A1%E7%90%86-%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/"/>
+      <category term="技术团队管理" scheme="https://warrenchane.com/categories/%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/"/>
     
     
   </entry>
