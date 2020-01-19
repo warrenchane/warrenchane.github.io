@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>技术团队管理——项目管理</title>
+      <link href="/2020/01/19/ji-zhu-tuan-dui-guan-li-xiang-mu-guan-li/"/>
+      <url>/2020/01/19/ji-zhu-tuan-dui-guan-li-xiang-mu-guan-li/</url>
+      
+        <content type="html"><![CDATA[<h1 id="基于JIRA来做项目管理"><a href="#基于JIRA来做项目管理" class="headerlink" title="基于JIRA来做项目管理"></a>基于JIRA来做项目管理</h1><p>产品需求、技术优化、故障修复，都要建JIRA，描述清楚要做的事情，没有JIRA不开发，JIRA链接要发项目群里，故障修复、技术优化可能没项目群，就发到团队群里。<br>项目群，涉及的人员有相关PM、RD、QA。</p><h2 id="关于JIRA"><a href="#关于JIRA" class="headerlink" title="关于JIRA"></a>关于JIRA</h2><p><a href="https://www.atlassian.com/software/jira" target="_blank" rel="noopener">Jira | Issue &amp; Project Tracking Software | Atlassian</a><br>JIRA是一个敏捷开发项目管理工具，每个公司都需要有这样一个工具，国内有很多的替代方案，比如说：Teambition。</p><h1 id="关于需求评审"><a href="#关于需求评审" class="headerlink" title="关于需求评审"></a>关于需求评审</h1><p>需求评审前一天PM给出需求文档链接地址，到时技术先花个20分钟提前了解一下文档，把自己的疑惑记录下来在需求评审会上与产品沟通。<br>需求评审参与方：相关的pm、rd、qa再加上技术经理。<br>需求评审当天或者第二天，rd给出大致的工期，QA给出测试时间，估算工期的时候rd同学最好能细化一下，具体每个功能实现需要的时间。</p><h1 id="关于项目技术负责人"><a href="#关于项目技术负责人" class="headerlink" title="关于项目技术负责人"></a>关于项目技术负责人</h1><p>需求评审后，确定一位rd全程负责，作为技术方的项目owner，直至需求结束。职责包含不仅限于组织技术评审、项目推进、关键步骤反馈。</p><h1 id="关于技术评审"><a href="#关于技术评审" class="headerlink" title="关于技术评审"></a>关于技术评审</h1><p>技术评审的本质是为了明确方案、控制风险、相互交流、共同成长。<br>我们团队有个约定：一个标准项目工期超过10pd的需要做技术评审。</p><p>参与人员：rd、pm、qa、相关依赖方加上技术经理。</p><p>遇到风险大的、影响大的要主动发起技术评审。</p><p>技术评审要有存储结构的设计，流程设计，接口文档，明确关键时间点（联调时间，提测时间），咱们的文档是用的swagger生成，基本上定义好存储结构，然后在返回的bean上加一些注解文档就有了。<br>流程设计的话业务流程不复杂的话，可以弱化一些。</p><h1 id="关于上线评审"><a href="#关于上线评审" class="headerlink" title="关于上线评审"></a>关于上线评审</h1><p>由项目技术负责人-来负责写上线计划。<br>上线计划要点：<br>1.如果数据库表结构有修改，确认db-migration 有没有执行<br>2.新项目要和op确认域名与Nginx路由规则有没有配置好，否则上线以后会访问不通<br>3.上线顺序，前端先上还是后端先上，后端相互依赖方，谁先上谁后上，每个参与方上线以后都在群里面通知一下<br>4.回滚顺序，与上线顺序类似<br>5.对于重大复杂的项目（总工时超过10pd的项目），要做上线评审，要讨论可能存在的风险点，会不会对已有的逻辑有影响，遇到问题怎么解决，是回滚还是及时解决，对于问题过程中产生的脏数据怎么处理以及如何分辨哪些是脏数据。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 管理 -  技术团队管理 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>learning-spider</title>
       <link href="/2020/01/17/learning-spider/"/>
       <url>/2020/01/17/learning-spider/</url>

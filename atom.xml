@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://warrenchane.com/"/>
-  <updated>2020-01-18T10:32:43.597Z</updated>
+  <updated>2020-01-19T05:58:12.639Z</updated>
   <id>https://warrenchane.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>技术团队管理——项目管理</title>
+    <link href="https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-xiang-mu-guan-li/"/>
+    <id>https://warrenchane.com/2020/01/19/ji-zhu-tuan-dui-guan-li-xiang-mu-guan-li/</id>
+    <published>2020-01-19T02:11:53.000Z</published>
+    <updated>2020-01-19T05:58:12.639Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;基于JIRA来做项目管理&quot;&gt;&lt;a href=&quot;#基于JIRA来做项目管理&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="管理 -  技术团队管理" scheme="https://warrenchane.com/categories/%E7%AE%A1%E7%90%86-%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>learning-spider</title>
