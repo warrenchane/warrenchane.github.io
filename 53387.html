@@ -4,18 +4,14 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="tq-learning, 少即是多">
-    <meta name="description" content="TqSdk官方文档：TqSdk 介绍 — TianQin Python SDK 1.5.1 文档对照米匡学习：介绍 — rqalpha 3.4.x 文档
-安装pip install tqsdk
-基础属性交易所代码
+    <meta name="keywords" content="swagger+yapi使用笔记, 少即是多">
+    <meta name="description" content="写接口文档对于RD来说是件非常烦心的事情，而且随着需求迭代，人员流动，接口文档的编写一般面临以下问题：
 
-
-交易所
-代码
-
-
-
-X">
+没有及时编写
+没有及时更新
+文档零散错落在不同的页面
+因编写人的行为习惯而又显著的差异
+因人员流动，交接时不太方便，在wiki中的文档">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -23,7 +19,7 @@ X">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>tq-learning | 少即是多</title>
+    <title>swagger+yapi使用笔记 | 少即是多</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -229,12 +225,12 @@ X">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">tq-learning</h1>
+                    <h1 class="description center-align post-title">swagger+yapi使用笔记</h1>
                 </div>
             </div>
         </div>
@@ -351,8 +347,12 @@ X">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/futures/">
-                                <span class="chip bg-color">futures</span>
+                            <a href="/tags/yapi/">
+                                <span class="chip bg-color">yapi</span>
+                            </a>
+                        
+                            <a href="/tags/swagger/">
+                                <span class="chip bg-color">swagger</span>
                             </a>
                         
                     </div>
@@ -363,8 +363,8 @@ X">
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/python/" class="post-category">
-                                python
+                            <a href="/categories/Java/" class="post-category">
+                                Java
                             </a>
                         
                     </div>
@@ -376,28 +376,28 @@ X">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-01-16
+                    2018-09-28
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-01-17
+                    2020-01-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    169
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    5 分
                 </div>
                 
 
@@ -413,54 +413,94 @@ X">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="TqSdk"><a href="#TqSdk" class="headerlink" title="TqSdk"></a>TqSdk</h1><p>官方文档：<a href="https://doc.shinnytech.com/tqsdk/latest/intro.html" target="_blank" rel="noopener">TqSdk 介绍 — TianQin Python SDK 1.5.1 文档</a><br>对照米匡学习：<a href="http://rqalpha.io/zh_CN/latest/intro/overview.html" target="_blank" rel="noopener">介绍 — rqalpha 3.4.x 文档</a></p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><pre class=" language-bash"><code class="language-bash">pip <span class="token function">install</span> tqsdk</code></pre>
-<h2 id="基础属性"><a href="#基础属性" class="headerlink" title="基础属性"></a>基础属性</h2><h3 id="交易所代码"><a href="#交易所代码" class="headerlink" title="交易所代码"></a>交易所代码</h3><table>
-<thead>
-<tr>
-<th>交易所</th>
-<th>代码</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>XSHE</td>
-<td>深交所</td>
-</tr>
-<tr>
-<td>XSHG</td>
-<td>上交所</td>
-</tr>
-<tr>
-<td>DCE</td>
-<td>大连商品交易所</td>
-</tr>
-<tr>
-<td>SHFE</td>
-<td>上海期货交易所</td>
-</tr>
-<tr>
-<td>CFFEX</td>
-<td>中国金融期货交易所</td>
-</tr>
-<tr>
-<td>CZCE</td>
-<td>郑州商品交易所</td>
-</tr>
-</tbody></table>
-<h3 id="期货合约代码"><a href="#期货合约代码" class="headerlink" title="期货合约代码"></a>期货合约代码</h3><table>
-<thead>
-<tr>
-<th>品种</th>
-<th>品种代码</th>
-<th>示例合约</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>白糖</td>
-<td>SR</td>
-<td>SR005表示白糖2005合约</td>
-</tr>
-</tbody></table>
+                <p>写接口文档对于RD来说是件非常烦心的事情，而且随着需求迭代，人员流动，接口文档的编写一般面临以下问题：</p>
+<ul>
+<li>没有及时编写</li>
+<li>没有及时更新</li>
+<li>文档零散错落在不同的页面</li>
+<li>因编写人的行为习惯而又显著的差异</li>
+<li>因人员流动，交接时不太方便，在wiki中的文档或者word文档比较难自动mock<a id="more"></a>
+
+
+
+
+
+</li>
+</ul>
+<h1 id="Swagger"><a href="#Swagger" class="headerlink" title="Swagger"></a>Swagger</h1><p>swagger是一个流行的API开发框架，这个框架以“开放API声明”（OpenAPI Specification，OAS）为基础，<br>对整个API的开发周期都提供了相应的解决方案，是一个非常庞大的项目（包括设计、编码和测试，几乎支持所有语言）。</p>
+<h2 id="springfox"><a href="#springfox" class="headerlink" title="springfox"></a>springfox</h2><p>springfox的大致原理就是，在项目启动的过种中，spring上下文在初始化的过程，<br>框架自动跟据配置加载一些swagger相关的bean到当前的上下文中，并自动扫描系统中可能需要生成api文档那些类，<br>并生成相应的信息缓存起来。如果项目MVC控制层用的是springMvc那么会自动扫描所有Controller类，并生成对应的文档描述数据.</p>
+<p>该数据是json格式，通过路径：项目地址/ v2/api-docs可以访问到该数据，然后swaggerUI根据这份数据生成相应的文档描述界面。<br>因为我们能拿到这份数据，所以我们也可以生成自己的页面.</p>
+<h2 id="SpringBoot-结合-Swagger2"><a href="#SpringBoot-结合-Swagger2" class="headerlink" title="SpringBoot 结合 Swagger2"></a>SpringBoot 结合 Swagger2</h2><h3 id="引入依赖"><a href="#引入依赖" class="headerlink" title="引入依赖"></a>引入依赖</h3><pre class=" language-xml"><code class="language-xml"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>io.springfox<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>springfox-swagger2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>2.7.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>dependency</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>groupId</span><span class="token punctuation">></span></span>io.springfox<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>groupId</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>artifactId</span><span class="token punctuation">></span></span>springfox-swagger-ui<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>artifactId</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>version</span><span class="token punctuation">></span></span>2.7.0<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>version</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>dependency</span><span class="token punctuation">></span></span></code></pre>
+<p>上面两个依赖的作用:</p>
+<p>springfox-swagger2依然是依赖OSA规范文档，也就是一个描述API的json文件，而这个组件的功能就是帮助我们自动生成这个json文件，<br>springfox-swagger-ui就是将这个json文件解析出来，用一种更友好的方式呈现出来。</p>
+<h3 id="配置Swagger2"><a href="#配置Swagger2" class="headerlink" title="配置Swagger2"></a>配置Swagger2</h3><pre class=" language-java"><code class="language-java"><span class="token annotation punctuation">@Configuration</span>
+<span class="token annotation punctuation">@EnableSwagger2</span>
+<span class="token comment" spellcheck="true">// 只针对开发环境和测试环境</span>
+<span class="token annotation punctuation">@Profile</span><span class="token punctuation">(</span><span class="token punctuation">{</span> <span class="token string">"development"</span><span class="token punctuation">,</span> <span class="token string">"testing"</span> <span class="token punctuation">}</span><span class="token punctuation">)</span>
+<span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Swagger2Config</span> <span class="token punctuation">{</span>
+    <span class="token annotation punctuation">@Bean</span>
+    <span class="token keyword">public</span> Docket <span class="token function">createRestApi</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">Docket</span><span class="token punctuation">(</span>DocumentationType<span class="token punctuation">.</span>SWAGGER_2<span class="token punctuation">)</span>
+                <span class="token punctuation">.</span><span class="token function">apiInfo</span><span class="token punctuation">(</span><span class="token function">apiInfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+                <span class="token punctuation">.</span><span class="token function">select</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                <span class="token punctuation">.</span><span class="token function">apis</span><span class="token punctuation">(</span>RequestHandlerSelectors<span class="token punctuation">.</span><span class="token function">basePackage</span><span class="token punctuation">(</span><span class="token string">"com.hetao101.channel.web"</span><span class="token punctuation">)</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">// 监听的package名字</span>
+                <span class="token punctuation">.</span><span class="token function">paths</span><span class="token punctuation">(</span>PathSelectors<span class="token punctuation">.</span><span class="token function">any</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+                <span class="token punctuation">.</span><span class="token function">build</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+
+    <span class="token keyword">private</span> ApiInfo <span class="token function">apiInfo</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">return</span> <span class="token keyword">new</span> <span class="token class-name">ApiInfoBuilder</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
+                <span class="token punctuation">.</span><span class="token function">title</span><span class="token punctuation">(</span><span class="token string">"市场-渠道管理-接口api文档"</span><span class="token punctuation">)</span>  <span class="token comment" spellcheck="true">// 当前项目接口文档的简单描述</span>
+                <span class="token punctuation">.</span><span class="token function">version</span><span class="token punctuation">(</span><span class="token string">"1.0"</span><span class="token punctuation">)</span> <span class="token comment" spellcheck="true">// 版本号</span>
+                <span class="token punctuation">.</span><span class="token function">build</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<h3 id="Swagger常用注解说明"><a href="#Swagger常用注解说明" class="headerlink" title="Swagger常用注解说明"></a>Swagger常用注解说明</h3><p>@Api<br>用在类上，说明该类的作用。</p>
+<pre class=" language-Java"><code class="language-Java">@Api(value = "Message-API", produces = "application/json")</code></pre>
+<p>@Api注解上有一个tags属性，用于进行接口分组分类</p>
+<p>@ApiOperation<br>是上面@Api注解的附属注解，用在方法上,说明方法的作用，每一个url资源的定义。</p>
+<pre class=" language-java"><code class="language-java"><span class="token annotation punctuation">@ApiOperation</span><span class="token punctuation">(</span>value <span class="token operator">=</span> <span class="token string">"消息列表"</span><span class="token punctuation">,</span> notes <span class="token operator">=</span> <span class="token string">"消息列表"</span><span class="token punctuation">)</span></code></pre>
+<p>@ApiModel<br>用在POJO上，用于描述一个Bean的信息，可以用于是请求参数对象类(Application/Json)，也可以用于返回对象类上。<br>@ApiModelProperty<br>是上面的@ApiModel注解的附属注解，用于描述具体的属性。</p>
+<pre class=" language-Java"><code class="language-Java">@ApiModel(value="user对象",description="用户对象user")
+public class User implements Serializable{
+    @ApiModelProperty(value="用户名",name="username",example="xingguo",required=true)
+    private String username;
+}</code></pre>
+<p>@ApiParam<br>用于请求属性上，一般用于路径参数或者form表单请求</p>
+<pre class=" language-Java"><code class="language-Java">@ApiParam(value = "邮箱或用户名", required = true) @RequestParam("value") String value</code></pre>
+<h1 id="yapi"><a href="#yapi" class="headerlink" title="yapi"></a>yapi</h1><p><img src="http://ody8qw44c.bkt.clouddn.com/2018-09-28-15381050024055.jpg" alt=""><br><a href="https://github.com/YMFE/yapi" target="_blank" rel="noopener">YMFE/yapi: YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台</a><br>yapi是支持Swagger导入的，上面的教程中，我们在Spring boot项目中引入了swagger-ui jar包，轻而易举生成了Web形式的文档，但是JSON文件怎么生成呢？<br>原来 /v2/api-docs 路径就是json文件的内容，我们可以用wget命令下载json文件,示例如下：</p>
+<pre class=" language-shell"><code class="language-shell">wget -O swagger.json http://127.0.0.1:8001/v2/api-docs</code></pre>
+<p>其中 <code>http://127.0.0.1:8001</code>是我本地项目的访问方式，这样会得到接口的JSON文件–swagger.json。</p>
+<h2 id="swagger文档导入yapi"><a href="#swagger文档导入yapi" class="headerlink" title="swagger文档导入yapi"></a>swagger文档导入yapi</h2><p>有了swagger API文档文件以后就可以导入Yapi了，官方提供了两种方式：</p>
+<h3 id="Web控制台导入"><a href="#Web控制台导入" class="headerlink" title="Web控制台导入"></a>Web控制台导入</h3><p><img src="http://ody8qw44c.bkt.clouddn.com/2018-09-28-15381065558095.jpg" alt=""></p>
+<h3 id="命令行导入"><a href="#命令行导入" class="headerlink" title="命令行导入"></a>命令行导入</h3><p>第一步，安装yapi工具</p>
+<pre class=" language-shell"><code class="language-shell">npm install -g yapi-cli</code></pre>
+<p>第二步，在任意一个目录下新建配置文件 yapi-import.json，内容如下：</p>
+<pre class=" language-JSON"><code class="language-JSON">{
+  "type": "swagger",
+  "token": "17fba0027f300248b804",
+  "file": "swagger.json",
+  "merge": "normal",
+  "server": "http://yapi.local.qunar.com:3000"
+}</code></pre>
+<p>type 是数据数据方式，目前官方只支持 swagger</p>
+<p>token 是项目 token，在 项目设置 -&gt; token 设置获取</p>
+<p>file 是 swagger 接口文档文件，可使用绝对路径或 url</p>
+<p>merge 有三种导入方式(v1.3.23+支持) normal, good, mergin<br>普通模式(normal)：不导入已存在的接口；<br>智能合并(good)：已存在的接口，将合并返回数据的 response，适用于导入了 swagger 数据，保留对数据结构的改动；<br>完全覆盖(mergin)：不保留旧数据，完全使用新数据，适用于接口定义完全交给后端定义， 默认为 normal</p>
+<p>server 是 yapi 服务器地址</p>
+<p>第三步，在新建配置文件的当前目录，执行下面指令</p>
+<pre class=" language-shell"><code class="language-shell">yapi import</code></pre>
+<h1 id="延伸阅读"><a href="#延伸阅读" class="headerlink" title="延伸阅读"></a>延伸阅读</h1><p><a href="https://legacy.gitbook.com/book/huangwenchao/swagger/details" target="_blank" rel="noopener">Swagger从入门到精通 · GitBook (Legacy)</a><br><a href="https://blog.csdn.net/itguangit/article/details/78978296" target="_blank" rel="noopener">一篇文章带你搞懂 SpringBoot与Swagger整合 - CSDN博客</a><br><a href="https://yapi.ymfe.org/documents/data.html#swagger-%E6%95%B0%E6%8D%AE%E5%AF%BC%E5%85%A5" target="_blank" rel="noopener">Yapi-数据导入-教程</a></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -504,7 +544,7 @@ X">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://warrenchane.com/2020/01/16/tq-learning/">https://warrenchane.com/2020/01/16/tq-learning/</a>
+                    <a href="https://warrenchane.com/53387.html">https://warrenchane.com/53387.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -542,8 +582,12 @@ X">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/futures/">
-                                    <span class="chip bg-color">futures</span>
+                                <a href="/tags/yapi/">
+                                    <span class="chip bg-color">yapi</span>
+                                </a>
+                            
+                                <a href="/tags/swagger/">
+                                    <span class="chip bg-color">swagger</span>
                                 </a>
                             
                         </div>
@@ -714,7 +758,7 @@ X">
         repo: 'warrenchane.github.io',
         owner: 'warrenchane',
         admin: "warrenchane",
-        id: '2020-01-16T20-08-49',
+        id: '2018-09-28T11-00-51',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -739,33 +783,31 @@ X">
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/01/17/learning-spider/">
+                <a href="/54424.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="learning-spider">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="微信公众号开发中控token服务">
                         
-                        <span class="card-title">learning-spider</span>
+                        <span class="card-title">微信公众号开发中控token服务</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            需要学习的库Requests: 让 HTTP 服务人类 — Requests 2.18.1 文档
-Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation
-练练手免费
+                            问题来源先推荐一个工具包：Wechat-Group/weixin-java-tools: 全能微信Java开发工具包，支持包括微信支付、开放平台、小程序、企业微信/企业号和公众号等的开发以微信公众号开发为例，来说明我们所遇到的问题。我们在进
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-01-17
+                            <i class="far fa-clock fa-fw icon-date"></i>2018-09-28
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/python/" class="post-category">
-                                    python
+                            <a href="/categories/Java/" class="post-category">
+                                    Java
                                 </a>
                             
                             
@@ -775,12 +817,8 @@ Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/">
-                        <span class="chip bg-color">自动化测试</span>
-                    </a>
-                    
-                    <a href="/tags/%E7%88%AC%E8%99%AB/">
-                        <span class="chip bg-color">爬虫</span>
+                    <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/">
+                        <span class="chip bg-color">微信开发</span>
                     </a>
                     
                 </div>
@@ -791,53 +829,56 @@ Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
             </div>
             <div class="card">
-                <a href="/2020/01/14/wang-yang-ming-xin-xue/">
+                <a href="/53387.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="王阳明-心学">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="swagger+yapi使用笔记">
                         
-                        <span class="card-title">王阳明-心学</span>
+                        <span class="card-title">swagger+yapi使用笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            心即理龙场悟道
-致良知江西平叛
-四句教南征广西
+                            写接口文档对于RD来说是件非常烦心的事情，而且随着需求迭代，人员流动，接口文档的编写一般面临以下问题：
 
-无善无恶心之体有善有恶意之动知善知恶是良知为善去恶是格物
-
-破山中贼易，破心中贼难剿匪之前
-知行合一
-        document.querySelectorAll('.github-e
+没有及时编写
+没有及时更新
+文档零散错落在不同的页面
+因编写人的行为习惯而又显著的差异
+因人员流动，交接时不太方便，在wiki中的文档
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-14
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-28
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%93%B2%E5%AD%A6-%E5%BF%83%E5%AD%A6/" class="post-category">
-                                    哲学 - 心学
+                            <a href="/categories/Java/" class="post-category">
+                                    Java
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%8E%8B%E9%98%B3%E6%98%8E/">
-                        <span class="chip bg-color">王阳明</span>
+                    <a href="/tags/yapi/">
+                        <span class="chip bg-color">yapi</span>
+                    </a>
+                    
+                    <a href="/tags/swagger/">
+                        <span class="chip bg-color">swagger</span>
                     </a>
                     
                 </div>

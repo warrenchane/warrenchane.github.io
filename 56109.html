@@ -4,8 +4,9 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="微信公众号开发中控token服务, 少即是多">
-    <meta name="description" content="问题来源先推荐一个工具包：Wechat-Group/weixin-java-tools: 全能微信Java开发工具包，支持包括微信支付、开放平台、小程序、企业微信/企业号和公众号等的开发以微信公众号开发为例，来说明我们所遇到的问题。我们在进">
+    <meta name="keywords" content="技术团队管理-项目管理, 少即是多">
+    <meta name="description" content="基于JIRA来做项目管理产品需求、技术优化、故障修复，都要建JIRA，描述清楚要做的事情，没有JIRA不开发，JIRA链接要发项目群里，故障修复、技术优化可能没项目群，就发到团队群里。项目群，涉及的人员有相关PM、RD、QA。
+关于JIRA">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +14,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>微信公众号开发中控token服务 | 少即是多</title>
+    <title>技术团队管理-项目管理 | 少即是多</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -219,12 +220,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">微信公众号开发中控token服务</h1>
+                    <h1 class="description center-align post-title">技术团队管理-项目管理</h1>
                 </div>
             </div>
         </div>
@@ -339,13 +340,9 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/">
-                                <span class="chip bg-color">微信开发</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -353,8 +350,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Java/" class="post-category">
-                                Java
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/" class="post-category">
+                                技术团队管理
                             </a>
                         
                     </div>
@@ -366,28 +363,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-09-28
+                    2020-01-19
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-01-14
+                    2020-01-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1.4k
+                    1.3k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    5 分
+                    4 分
                 </div>
                 
 
@@ -403,66 +400,26 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="问题来源"><a href="#问题来源" class="headerlink" title="问题来源"></a>问题来源</h2><p>先推荐一个工具包：<br><a href="https://github.com/Wechat-Group/weixin-java-tools?utm_source=gold_browser_extension" target="_blank" rel="noopener">Wechat-Group/weixin-java-tools: 全能微信Java开发工具包，支持包括微信支付、开放平台、小程序、企业微信/企业号和公众号等的开发</a><br>以微信公众号开发为例，来说明我们所遇到的问题。<br>我们在进行微信公众号开发时，往往会拆分为多个服务，每个服务负责不同的功能，但是公众号的认证id和秘钥只有一套，这个时候如果每个服务都独自去生成access_token，就会浪费access_token的生成次数，以及会失效之前的token。这个时候需要一个独立服务来生成以及管理access_token，其余服务只需要去这个服务取token就行了。</p>
-<a id="more"></a>
-
-<p>我们在进行微信公众号开发时，微信公众号平台会给开发者ID和开发者密码，这两个东西是用来做认证的(生成access_token)。<br>我们在进行微信开发的时候，调用微信接口时，微信官方是需要认证的，如下图所示，认证的基础信息为开发者ID以及开发者密码，用这两个东西可进行认证。<br>官方是这样说的：</p>
-<blockquote>
-<p>access_token是公众号的全局唯一接口调用凭据，公众号调用各接口时都需使用access_token。开发者需要进行妥善保存。access_token的存储至少要保留512个字符空间。access_token的有效期目前为2个小时，需定时刷新，重复获取将导致上次获取的access_token失效。<br>公众平台的API调用所需的access_token的使用及生成方式说明：<br>1、建议公众号开发者使用中控服务器统一获取和刷新Access_token，其他业务逻辑服务器所使用的access_token均来自于该中控服务器，不应该各自去刷新，否则容易造成冲突，导致access_token覆盖而影响业务；<br>2、目前Access_token的有效期通过返回的expire_in来传达，目前是7200秒之内的值。中控服务器需要根据这个有效时间提前去刷新新access_token。在刷新过程中，中控服务器可对外继续输出的老access_token，此时公众平台后台会保证在5分钟内，新老access_token都可用，这保证了第三方业务的平滑过渡；<br>3、Access_token的有效时间可能会在未来有调整，所以中控服务器不仅需要内部定时主动刷新，还需要提供被动刷新access_token的接口，这样便于业务服务器在API调用获知access_token已超时的情况下，可以触发access_token的刷新流程。</p>
-</blockquote>
-<p>官方认证接口为：</p>
-<pre><code>https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=APPID&amp;secret=APPSECRET</code></pre><h2 id="token中控服务器架构图"><a href="#token中控服务器架构图" class="headerlink" title="token中控服务器架构图"></a>token中控服务器架构图</h2><p>思路：业务服务每次在请求微信公众平台接口时，先去token中控服务取一下access_token，然后拿着这个token去微信公众平台访问其他接口，如果返回token失效，业务服务自己告诉中控服务新生成一个access_token，然后用这个新的acces_token重新去请求微信接口。</p>
-<h2 id="如何实现token中控服务器？"><a href="#如何实现token中控服务器？" class="headerlink" title="如何实现token中控服务器？"></a>如何实现token中控服务器？</h2><p>引入jar包</p>
-<pre><code>&lt;dependency&gt;
-    &lt;groupId&gt;com.github.binarywang&lt;/groupId&gt;
-    &lt;artifactId&gt;weixin-java-mp&lt;/artifactId&gt;
-    &lt;version&gt;3.1.0&lt;/version&gt;
-&lt;/dependency&gt;</code></pre><p>设置一个web项目，只有这个项目有生成access_token的权限，也就是说只有这个项目有权去使用appId和appsecret调用access_token生成接口，其余服务调用这个服务生成access_token或者获取access_token。<br>中控服务提供两个接口：</p>
-<ul>
-<li>获取最新的access_token: 总是从redis中取出最新生成的access_token。</li>
-<li>生成新的access_token接口：这个接口需要加锁，这把锁的失效时间应该小于5分钟，因为微信access_token生成接口，新的token生成以后，老的token会在5分钟后失效，但是如果此时又有一个人调用了生成token的服务，第一个token会立即失效。</li>
-</ul>
-<h2 id="封装SDK"><a href="#封装SDK" class="headerlink" title="封装SDK"></a>封装SDK</h2><p>业务方调用微信接口的流程，前面已经说清楚了，这里再重复一遍：</p>
-<ul>
-<li>先去中控服务取access_token。</li>
-<li>拿着这个access_token去微信服务调用接口。</li>
-<li>如果返回access_token失效，则进行重试。</li>
-<li>重试的流程为：调用中控服务的生成新access_token的接口，拿着返回的新token去访问微信接口，业务方可以控制重试的次数为3次。</li>
-</ul>
-<p>如果每个业务方服务都把这逻辑实现一遍，那就太傻了，所以势必要对其进行封装成SDK。所幸weixin-java-tools这个jar包已经实现了大部分的功能，我们只需进行很小的改动就可以实现我们的逻辑，这里不对weixin-java-tools里面的代码做过多的解释，下面贴出实现方案：</p>
-<pre class=" language-Java"><code class="language-Java">public class MyWxMpServiceImpl extends WxMpServiceHttpClientImpl {
-    private TokenClient tokenClient;
-    public MyWxMpServiceImpl(TokenClient tokenClient) {
-        this.tokenClient = tokenClient;
-    }
-    public String getAccessToken(boolean forceRefresh) throws WxErrorException {
-        Lock lock = this.getWxMpConfigStorage().getAccessTokenLock();
-
-        try {
-            lock.lock();
-            if (this.getWxMpConfigStorage().isAccessTokenExpired() || forceRefresh) {
-                String token = tokenClient.generateMpToken();
-                this.getWxMpConfigStorage().updateAccessToken(token, 100000);
-            }
-        } finally {
-            lock.unlock();
-        }
-
-        return this.getWxMpConfigStorage().getAccessToken();
-    }
-}
-</code></pre>
-<p>新建一个类继承WxMpServiceHttpClientImpl，重写getAccessToken方法，之前的getAccessToken是去微信官方接口取access_token，这里改为token中控服务取token，其中TokenClient为对token中控服务调用的封装，这里依赖注入进来。</p>
-<p>使用的代码如下：</p>
-<pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> WxMpService <span class="token function">getWxMpService</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        WxMpInMemoryConfigStorage configStorage <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">WxMpInMemoryConfigStorage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        String mpToken <span class="token operator">=</span> tokenClient<span class="token punctuation">.</span><span class="token function">getMpToken</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        configStorage<span class="token punctuation">.</span><span class="token function">setAccessToken</span><span class="token punctuation">(</span>mpToken<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        configStorage<span class="token punctuation">.</span><span class="token function">setExpiresTime</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span><span class="token function">currentTimeMillis</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span> <span class="token number">100000000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        WxMpService service <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MyWxMpServiceImpl</span><span class="token punctuation">(</span>tokenClient<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        service<span class="token punctuation">.</span><span class="token function">setWxMpConfigStorage</span><span class="token punctuation">(</span>configStorage<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">return</span> service<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span></code></pre>
+                <h1 id="基于JIRA来做项目管理"><a href="#基于JIRA来做项目管理" class="headerlink" title="基于JIRA来做项目管理"></a>基于JIRA来做项目管理</h1><p>产品需求、技术优化、故障修复，都要建JIRA，描述清楚要做的事情，没有JIRA不开发，JIRA链接要发项目群里，故障修复、技术优化可能没项目群，就发到团队群里。<br>项目群，涉及的人员有相关PM、RD、QA。</p>
+<h2 id="关于JIRA"><a href="#关于JIRA" class="headerlink" title="关于JIRA"></a>关于JIRA</h2><p><a href="https://www.atlassian.com/software/jira" target="_blank" rel="noopener">Jira | Issue &amp; Project Tracking Software | Atlassian</a><br>JIRA是一个敏捷开发项目管理工具，每个公司都需要有这样一个工具，国内有很多的替代方案，比如说：Teambition。</p>
+<h2 id="关于需求评审"><a href="#关于需求评审" class="headerlink" title="关于需求评审"></a>关于需求评审</h2><p>需求评审前一天PM给出需求文档链接地址，到时技术先花个20分钟提前了解一下文档，把自己的疑惑记录下来在需求评审会上与产品沟通。<br>需求评审参与方：相关的pm、rd、qa再加上技术经理。<br>需求评审当天或者第二天，rd给出大致的工期，QA给出测试时间，估算工期的时候rd同学最好能细化一下，具体每个功能实现需要的时间。</p>
+<h2 id="关于项目技术负责人"><a href="#关于项目技术负责人" class="headerlink" title="关于项目技术负责人"></a>关于项目技术负责人</h2><p>需求评审后，确定一位rd全程负责，作为技术方的项目owner，直至需求结束。职责包含不仅限于组织技术评审、项目推进、关键步骤反馈。</p>
+<h2 id="关于技术评审"><a href="#关于技术评审" class="headerlink" title="关于技术评审"></a>关于技术评审</h2><p>技术评审的本质是为了明确方案、控制风险、相互交流、共同成长。<br>我们团队有个约定：一个标准项目工期超过10pd的需要做技术评审。</p>
+<p>参与人员：rd、pm、qa、相关依赖方加上技术经理。</p>
+<p>遇到风险大的、影响大的要主动发起技术评审。</p>
+<p>技术评审要有存储结构的设计，流程设计，接口文档，明确关键时间点（联调时间，提测时间），咱们的文档是用的swagger生成，基本上定义好存储结构，然后在返回的bean上加一些注解文档就有了。<br>流程设计的话业务流程不复杂的话，可以弱化一些。</p>
+<h1 id="关于测试"><a href="#关于测试" class="headerlink" title="关于测试"></a>关于测试</h1><h2 id="关于数据同步"><a href="#关于数据同步" class="headerlink" title="关于数据同步"></a>关于数据同步</h2><p>一旦涉及线上数据同步到线上，一定要提前在群里面说出来，确认不会影响其他人的流程方可同步。</p>
+<h2 id="关于提测"><a href="#关于提测" class="headerlink" title="关于提测"></a>关于提测</h2><p>提测邮件要抄送技术经理 、技术组、QA组、产品组</p>
+<p>包含的内容：<br>JIRA链接<br>项目访问地址<br>gitlab地址<br>一些重要的测试点</p>
+<h2 id="关于BUG"><a href="#关于BUG" class="headerlink" title="关于BUG"></a>关于BUG</h2><p>所有的问题都要走JIRA，企业微信截图对话的方式容易忘记。<br>QA在提bug的时候，要能简单地描述清楚问题，格式不限。</p>
+<p>建议的格式：文字+图片+相应的链接+操作人账号</p>
+<p>当然，上面不是呆板的格式，不强制要求所有的都这样，一言以蔽之，要能够清晰准确地描述问题。好让rd能快速定位问题，通过约定来减少沟通成本。</p>
+<p>rd在收到JIRA-bug后开始解决，如果有疑问，在群里沟通</p>
+<p>解决完以后，点击解决问题，指回给相应的QA，让QA进行验证，验证通过，QA关闭该JIRA</p>
+<h1 id="关于上线"><a href="#关于上线" class="headerlink" title="关于上线"></a>关于上线</h1><h2 id="预发布环境"><a href="#预发布环境" class="headerlink" title="预发布环境"></a>预发布环境</h2><p>如果有预发布环境，先上线预发布环境，上线之前现在预发布环境验收一下。</p>
+<h2 id="上线计划"><a href="#上线计划" class="headerlink" title="上线计划"></a>上线计划</h2><p>由项目技术负责人-来负责写上线计划。<br>上线计划要点：<br>1.如果数据库表结构有修改，确认db-migration 有没有执行<br>2.新项目要和op确认域名与Nginx路由规则有没有配置好，否则上线以后会访问不通<br>3.上线顺序，前端先上还是后端先上，后端相互依赖方，谁先上谁后上，每个参与方上线以后都在群里面通知一下<br>4.回滚顺序，与上线顺序类似<br>5.对于重大复杂的项目（总工时超过10pd的项目），要做上线评审，要讨论可能存在的风险点，会不会对已有的逻辑有影响，遇到问题怎么解决，是回滚还是及时解决，对于问题过程中产生的脏数据怎么处理以及如何分辨哪些是脏数据。</p>
+<h1 id="关于需求变更"><a href="#关于需求变更" class="headerlink" title="关于需求变更"></a>关于需求变更</h1><p>这个估计是所有互联网公司中都会出现的问题，对于项目组来说不允许需求变更，显然是不合理的，互联网公司最大的优势就是要拥抱变化，但是对于RD和QA来说显然不是希望需求发生变更的，因为可能开发到一半发现变更的需求导致了之前所有的努力都白费了。</p>
+<p>我在团队管理的时候，一直在努力寻找这两者之间的平衡，在我们团队的协商与磨合之下得出的结论是：需求变更是可以的，我们要拥抱变化，但是要不要加工期由RD和QA来评判，加多久时间由PM、RD、QA一起商量给结果。</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -506,7 +463,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://warrenchane.com/2018/09/28/wei-xin-gong-zhong-hao-kai-fa-zhong-kong-token-fu-wu/">https://warrenchane.com/2018/09/28/wei-xin-gong-zhong-hao-kai-fa-zhong-kong-token-fu-wu/</a>
+                    <a href="https://warrenchane.com/56109.html">https://warrenchane.com/56109.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -543,11 +500,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/">
-                                    <span class="chip bg-color">微信开发</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -716,7 +669,7 @@
         repo: 'warrenchane.github.io',
         owner: 'warrenchane',
         admin: "warrenchane",
-        id: '2018-09-28T15-14-37',
+        id: '2020-01-19T10-11-53',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -741,44 +694,40 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2018/09/28/chang-jian-de-jing-ji-xue-ding-lu/">
+                <a href="/59106.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="常见的经济学定律">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="技术团队管理-晨会">
                         
-                        <span class="card-title">常见的经济学定律</span>
+                        <span class="card-title">技术团队管理-晨会</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            马太效应《新约马太福音》中有这样一个故事，一个国王远行前，交给三个仆人每人一锭银子，吩咐他们：”你们去做生意，等我回来时，再来见我。”国王回来时，第一个仆人说：”主人，你交给我们的一锭银子，我已赚了10锭。”于是国王奖励他10座城邑。第二个
+                            站立会议如何开每天定时、定地开站立会议，不需要事先通知，每天10点半。在站立会议上每个人当且仅当回答以下3个问题：
+
+昨天完成了什么？有什么难题需要别人帮助解决？今天做什么？
+
+在汇报每个人的进展时，不需要汇报是如何做的，只汇报进展。需要别
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2018-09-28
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-01-19
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="post-category">
-                                    经济学
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/" class="post-category">
+                                    技术团队管理
                                 </a>
                             
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -790,37 +739,33 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/09/28/swagger-yapi-shi-yong-bi-ji/">
+                <a href="/63944.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="swagger+yapi使用笔记">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="learning-spider">
                         
-                        <span class="card-title">swagger+yapi使用笔记</span>
+                        <span class="card-title">learning-spider</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            写接口文档对于RD来说是件非常烦心的事情，而且随着需求迭代，人员流动，接口文档的编写一般面临以下问题：
-
-没有及时编写
-没有及时更新
-文档零散错落在不同的页面
-因编写人的行为习惯而又显著的差异
-因人员流动，交接时不太方便，在wiki中的文档
+                            需要学习的库Requests: 让 HTTP 服务人类 — Requests 2.18.1 文档
+Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation
+练练手免费
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-17
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Java/" class="post-category">
-                                    Java
+                            <a href="/categories/python/" class="post-category">
+                                    python
                                 </a>
                             
                             
@@ -830,12 +775,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/yapi/">
-                        <span class="chip bg-color">yapi</span>
+                    <a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/">
+                        <span class="chip bg-color">自动化测试</span>
                     </a>
                     
-                    <a href="/tags/swagger/">
-                        <span class="chip bg-color">swagger</span>
+                    <a href="/tags/%E7%88%AC%E8%99%AB/">
+                        <span class="chip bg-color">爬虫</span>
                     </a>
                     
                 </div>

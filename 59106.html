@@ -4,10 +4,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="《java8实战》笔记, 少即是多">
-    <meta name="description" content="lambda 表达式什么是lambda表达式我们可以吧lambda表达式理解为简洁地表示可传递的匿名函数的一种方式：它没有名称，但是有参数列表、函数主体、返回类型，可能还有一个可以抛出的异常列表。
+    <meta name="keywords" content="技术团队管理-晨会, 少即是多">
+    <meta name="description" content="站立会议如何开每天定时、定地开站立会议，不需要事先通知，每天10点半。在站立会议上每个人当且仅当回答以下3个问题：
 
-从上面的定义来看，lambda表达式有如">
+昨天完成了什么？有什么难题需要别人帮助解决？今天做什么？
+
+在汇报每个人的进展时，不需要汇报是如何做的，只汇报进展。需要别">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -15,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>《java8实战》笔记 | 少即是多</title>
+    <title>技术团队管理-晨会 | 少即是多</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -221,12 +223,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/15.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">《java8实战》笔记</h1>
+                    <h1 class="description center-align post-title">技术团队管理-晨会</h1>
                 </div>
             </div>
         </div>
@@ -341,13 +343,9 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
-                                <span class="chip bg-color">读书笔记</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -355,8 +353,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Java/" class="post-category">
-                                Java
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/" class="post-category">
+                                技术团队管理
                             </a>
                         
                     </div>
@@ -368,28 +366,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-09-30
+                    2020-01-19
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-01-18
+                    2020-01-19
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3.1k
+                    214
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    10 分
+                    1 分
                 </div>
                 
 
@@ -405,124 +403,12 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="lambda-表达式"><a href="#lambda-表达式" class="headerlink" title="lambda 表达式"></a>lambda 表达式</h1><h2 id="什么是lambda表达式"><a href="#什么是lambda表达式" class="headerlink" title="什么是lambda表达式"></a>什么是lambda表达式</h2><p>我们可以吧lambda表达式理解为简洁地表示可传递的匿名函数的一种方式：它没有名称，但是有<code>参数列表</code>、<code>函数主体</code>、<code>返回类型</code>，可能还有一个<code>可以抛出的异常列表</code>。</p>
-<a id="more"></a>
-<p>从上面的定义来看，lambda表达式有如下特性：</p>
-<ul>
-<li>匿名——它不像普通的方法那样有一个明确的名称：写得少却想得多。</li>
-<li>函数——lambda函数不像方法那样属于某个特定的类。但是和方法一样，lambda有参数列表、函数主题、返回类型，还有可能会抛出异常。</li>
-<li>传递——lambda表达式可以作为参数传递给方法或者存储变量中。</li>
-<li>简洁——无需像匿名类那样写很多的模板代码。</li>
-</ul>
-<p><code>一定要记住的一点是，lambda表达式是函数，在代码里面如果看到一个变量=lambda表达式，表示的意思是，这个变量是一个函数</code></p>
-<p>来个例子：<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402270083079.jpg" alt=""></p>
-<p>从上图可以看出，lambda表达式有三个部分：</p>
-<ul>
-<li>参数列表</li>
-<li>箭头</li>
-<li>lambda主体</li>
-</ul>
-<h2 id="在哪里使用以及如何使用"><a href="#在哪里使用以及如何使用" class="headerlink" title="在哪里使用以及如何使用"></a>在哪里使用以及如何使用</h2><p>在函数式接口上使用lambda表达式。<br>什么是函数式接口呢？<br>函数式接口就是只定义了一个抽象方法的接口(有多余的继承方法也是不被允许的)。<br>现在的函数式接口都加上了<code>@FunctionalInterface</code>注解，</p>
-<p>用函数式接口可以干什么呢？<br>lambda表达式允许你直接以内联的形式为函数式接口的抽象方法提供实现，并把整个表达式作为函数式接口的实例（具体来说，函数式接口一个具体实现的实例）。<br>用匿名内部类也可以完成同样的事情，只不过要分为两步，首先需要提供一个实现，然后再直接内联将它实例化。<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402270964036.jpg" alt=""></p>
-<p>所以，lambda表达式到底是什么呢？lambda表达式也是实例化的对象，不过是是函数式接口的抽象实现并实例化的对象。</p>
-<p>函数描述符<br>函数式接口的抽闲方法的签名基本上就是lambda表达式的签名。我们将这种抽象方法叫做函数描述符。</p>
-<p>如何把lambda付诸实践</p>
-<ul>
-<li>记得行为参数化</li>
-<li>使用函数式接口来传递行为</li>
-<li>执行一个行为</li>
-<li>传递lambda</li>
-</ul>
-<p>装箱：自动将原始类型转换为对应的引用类型的机制。<br>拆箱：将引用类型转换为对应的原始类型。</p>
-<p>使用局部变量<br>lambda表达式允许使用自由变量（不是参数，而是在外层作用域中定义的变量，从这个意义上来说，就是闭包）<br>在使用局部变量的时候有限制，实例变量存储在堆中，而局部变量则保存在栈上。如果lambda可以直接访问局部变量，而且是在同一个线程中使用的，则使用lambda的线程，可能会在分配该变量的线程将这个变量收回之后去访问这个变量，这个时候就产生异常。<br>那么这个限制是什么：局部变量必须显式声明为final。</p>
-<h3 id="异常"><a href="#异常" class="headerlink" title="异常"></a>异常</h3><p>请注意，任何函数式接口都不允许抛出受检异常（Checked Exception）。如果你需要lambda表达式抛出异常，有两种办法：顶一个自己的函数式接口，并声明受检异常，或者把lambda表达式包裹在一个try/catch块中。</p>
-<h2 id="方法引用"><a href="#方法引用" class="headerlink" title="方法引用"></a>方法引用</h2><p><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402271196847.jpg" alt=""></p>
-<p>方法引用可以看做仅仅调用特定方法的lambda的一种快捷写法。<br>基本思想：如果一个lambda代表的只是“直接调用这个方法”，那最好还是用名称来调用它，而不是去描述如何调用它。<br>事实上，在我看来方法引用就是实现与调用分离。回想一下前面说的，lambda表达式是函数式接口的实现并实例化，这里面就是两步，第一是实现，第二是实例化。</p>
-<p>如何构建方法引用<br>有三类：</p>
-<ul>
-<li>指向静态方法的方法引用</li>
-<li>指向任意类型实例方法的方法引用</li>
-<li>指向现有对象的实例方法的方法引用</li>
-</ul>
-<h2 id="复合lambda表达的有用方法"><a href="#复合lambda表达的有用方法" class="headerlink" title="复合lambda表达的有用方法"></a>复合lambda表达的有用方法</h2><ul>
-<li>比较器复合<br>对库存进行排序，比较苹果的重量。<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402271468081.jpg" alt=""><br>逆序比较<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402271623499.jpg" alt=""></li>
-</ul>
-<p>比较器链<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402271772457.jpg" alt=""></p>
-<ul>
-<li>谓词复合<br>谓词接口包括三个方法：negate、and和or，咱们可以重用已有的Predicate来创建更加复杂的谓词。<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402271958347.jpg" alt=""></li>
-</ul>
-<ul>
-<li>函数复合<br>Function接口所代表的lambda表达式可以复合起来，Function接口为此配了andThen和compose两个默认的方法。<br>比如f和g都是Function的两个实例<br>f.andThen(g) 表示 先执行f后执行g，数学上的表达式是g(f(x)) 其中x是参数<br>f.compose(g) 表示 先执行g后执行f，数学上的表达式是f(g(x))</li>
-</ul>
-<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><ul>
-<li>lambda表达式可以理解为一种匿名函数：没有名称，但是有参数列表、函数主体、返回类型，可能还有一个可以抛出的异常列表</li>
-<li>lambda表达式让你可以简洁地传递代码</li>
-<li>只有在接受函数式接口的地方才可以使用lambda表达式</li>
-<li>lambda表达式允许你直接内联，为函数式接口的抽象方法提供实现，并且将整个表达式作为函数式接口的一个实例。</li>
-<li>Java8 自带一些常用的函数式接口，放在<code>java.util.function</code>包中。</li>
-<li>环绕执行模式（即在方法所必须的代码中间，你需要执行点什么操作，比如资源分配和清理）可以配合lambda提高灵活性和可重用性。</li>
-<li>lambda表达式所需要代表的类型称之为目标类型</li>
-<li>方法引用让你重复使用现有的方法实现并直接传递他们</li>
-<li>Comparator、Predicate和Function等函数式接口都有几个可以用来结合lambda表达式的默认方法。</li>
-</ul>
-<h1 id="函数式数据处理"><a href="#函数式数据处理" class="headerlink" title="函数式数据处理"></a>函数式数据处理</h1><p>集合是 Java 中使用最多的 API。要是没有集合，我们的开发还能做什么呢？几乎每个Java应用程序都会制造和处理集合。</p>
-<h2 id="流"><a href="#流" class="headerlink" title="流"></a>流</h2><p>流是Java8 的新功能特性，它允许你以声明性方式处理数据集合（通过查询语句来表达，而不不是临时编写一个实现）。<br>流还可以透明地并行处理，你无需写任何多线程代码。<br>用一个例子来带入Stream的用法：<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402272177597.jpg" alt=""></p>
-<p><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402272313419.jpg" alt=""></p>
-<p>后续会说明调用parallelStream方法的时候到底发生了什么？用了多少个线程？对性能有多大的提升？</p>
-<p>从上面的例子可以看到几个好处：</p>
-<ul>
-<li>代码是以声明式方式编写：说明想要完成什么（筛选热量低的菜肴）而不是说明如何实现一个操作（大量的循环和控制语句）。这种方法加上行为参数化可以轻松应对变化的需要。</li>
-<li>可以把几个基础操作链接起来，表达复杂的数据处理流水线（在filter后面接上sorted、map和collect操作），同时保持代码清晰可读。</li>
-</ul>
-<p><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402272744073.jpg" alt=""></p>
-<p>将流操作链接起来构成流的流水线<br>总结一下，Java8 中的Stream API可以让你写出这样的代码：</p>
-<ul>
-<li>声明性——更简洁，更易读</li>
-<li>可复合——更灵活</li>
-<li>可并行——性能更好</li>
-</ul>
-<h3 id="流简介"><a href="#流简介" class="headerlink" title="流简介"></a>流简介</h3><p>Java 8中的集合支持一个新的Stream方法，它会返回一个流(接口定义在java.util.stream.Stream中)。<br>流到底是什么？简短的定义就是“从支持数据处理操作的源生成的元素序列”。</p>
-<ul>
-<li>元素序列<br>就像集合一样，流也提供了一个接口，可以访问特定元素类型的一组有序值。<br>因为集合是数据结构，所以它的主要目的是以特定的时间、空间复杂度存储和访问元素。但是流的目的在于表达计算，集合讲的是数据，流讲的是计算。</li>
-<li>源<br>流会使用一个提供数据的源</li>
-<li>数据处理操作<br>流的数据处理功能支持类似于数据库的操作，以及函数式编程语言中常见操作，例如：filter、map、reduce、find、match、sort、group by等。<br>注意：流操作可以顺序执行，也可以并行执行。</li>
-<li>流水线<br>很多流操作本身会返回一个流，这样多个操作就可以链接起来，形成一个大的流水线。<br>流水线的操作可以看作对数据源进行数据库式查询。</li>
-<li>内部迭代<br>与使用迭代器显式迭代的集合不同，流的迭代操作是在背后进行的。</li>
-</ul>
-<p>eg：查找热量最高的三道菜的菜名。<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402272870949.jpg" alt=""></p>
-<p>filter——接受lambda，从流中排除某些元素<br>map——接受一个lambda，将元素转换成其他形式或者提取信息。<br>limit——截断流，使其元素不超过给定数量<br>collect——将流转换为其他形式</p>
-<h3 id="流与集合"><a href="#流与集合" class="headerlink" title="流与集合"></a>流与集合</h3><blockquote>
-<p>粗略来说，集合与流之间的差异就在于什么时候进行计算。集合是一个内存中的数据结构，它包含数据结构中目前所有的值——集合中的每个元素都得先算出来才能添加到集合中。相比之下，流则是在概念上固定的数据结构（你不能添加或者删除元素），其元素是按需计算的。</p>
+                <h1 id="站立会议"><a href="#站立会议" class="headerlink" title="站立会议"></a>站立会议</h1><h2 id="如何开"><a href="#如何开" class="headerlink" title="如何开"></a>如何开</h2><p>每天定时、定地开站立会议，不需要事先通知，每天10点半。<br>在站立会议上每个人当且仅当回答以下3个问题：</p>
+<blockquote>
+<p>昨天完成了什么？<br>有什么难题需要别人帮助解决？<br>今天做什么？</p>
 </blockquote>
-<ul>
-<li>只能遍历一次<br>和迭代器类似，流只能遍历一次，遍历完以后，流就被消费掉了。如果需要再次使用的话，需要重新遍历流。</li>
-<li>内部迭代与外部迭代<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402273135076.jpg" alt=""></li>
-</ul>
-<h3 id="流操作"><a href="#流操作" class="headerlink" title="流操作"></a>流操作</h3><p>流操作有两类：中间操作与终端操作。<br>中间操作：返回的是流<br>终端操作：从流的流水线中生成结果，其结果不是流。</p>
-<h3 id="流使用"><a href="#流使用" class="headerlink" title="流使用"></a>流使用</h3><p>流的使用包括三件事情：</p>
-<ul>
-<li>一个数据源来执行查询；</li>
-<li>一个中间操作链，形成一条流的流水线；</li>
-<li>一个终端操作，执行流水线，并能生成结果。</li>
-</ul>
-<p>流的流水线类似于构建器模式，在构建器模式中有一个调用链用来设置一套配置，接着是调用built方法。<br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402274077891.jpg" alt=""><br><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402274228294.jpg" alt=""></p>
-<h3 id="小结-1"><a href="#小结-1" class="headerlink" title="小结"></a>小结</h3><ul>
-<li>流是“从支持数据处理操作的源生成的一系列元素”。</li>
-<li>流利用内部迭代：迭代通过filter、map、sorted等操作被抽象掉了。</li>
-<li>流操作有两类</li>
-<li>中间操作可以链接在一起，形成流水线</li>
-<li>流中的元素是按需计算的</li>
-<li>流每次只能遍历一次</li>
-</ul>
-<h2 id="使用流"><a href="#使用流" class="headerlink" title="使用流"></a>使用流</h2><h3 id="筛选与切片"><a href="#筛选与切片" class="headerlink" title="筛选与切片"></a>筛选与切片</h3><p>用谓词筛选，filter方法，该操作接受一个谓词（一个返回boolean的函数）作为参数，并返回一个包括所有符合谓词的元素的流。<br>流还支持一个distinct方法，用来过滤重复的元素。<br>limit方法用来截断流<br>skip方法用来跳过元素</p>
-<p><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402274423523.jpg" alt=""></p>
-<h3 id="映射"><a href="#映射" class="headerlink" title="映射"></a>映射</h3><p>一个非常常见的数据处理套路就是从某些对象中选择信息。<br>map方法，接受一个函数作为参数，这个函数会被应用到每个元素上，并将其映射成一个新的元素（其实就是转换，但是不会改变原序列里面的值）</p>
-<ul>
-<li>流的扁平化<br>flatmap 方法让你把一个流中的每个值都换成另一个流，然后把所有的流连接起来成为一个流。<h3 id="查找与匹配"><a href="#查找与匹配" class="headerlink" title="查找与匹配"></a>查找与匹配</h3>anyMatch 检查谓词是否至少匹配一个元素<br>allMatch 方法检查谓词是否匹配所有元素<br>findAny 方法返回当前六中的任意元素<br>findFirst 方法查找第一个元素<h3 id="归约"><a href="#归约" class="headerlink" title="归约"></a>归约</h3>将流中的所有元素反复结合起来，得到一个值，这样的操作叫做归约操作（将流归约成一个值）。<br>reduce方法</li>
-</ul>
-<p>map和reduce的连接通常称为map-reduce模式，很容易并行化。</p>
-<p><img src="https://blog-1257857643.cos.ap-beijing.myqcloud.com/blog/15402274550455.jpg" alt=""></p>
-<script>
+<p>在汇报每个人的进展时，不需要汇报是如何做的，只汇报进展。<br>需要别人帮助的问题在会后单独讨论。<br>不是向team leader汇报工作，是向所有人说明清楚你正在做的事情，将要做的事情，进展以及困难。</p>
+<h2 id="如何避免僵尸站会"><a href="#如何避免僵尸站会" class="headerlink" title="如何避免僵尸站会"></a>如何避免僵尸站会</h2><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -565,7 +451,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://warrenchane.com/2018/09/30/java8-shi-zhan-bi-ji/">https://warrenchane.com/2018/09/30/java8-shi-zhan-bi-ji/</a>
+                    <a href="https://warrenchane.com/59106.html">https://warrenchane.com/59106.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -602,11 +488,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
-                                    <span class="chip bg-color">读书笔记</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -775,7 +657,7 @@
         repo: 'warrenchane.github.io',
         owner: 'warrenchane',
         admin: "warrenchane",
-        id: '2018-09-30T15-23-23',
+        id: '2020-01-19T14-33-30',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -800,46 +682,39 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2018/10/18/jiu-cai-de-zi-wo-xiu-yang-du-shu-bi-ji/">
+                <a href="/37156.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="韭菜的自我修养-读书笔记">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="技术团队管理-绩效">
                         
-                        <span class="card-title">韭菜的自我修养-读书笔记</span>
+                        <span class="card-title">技术团队管理-绩效</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            韭菜的自我修养 (豆瓣)
-
-韭菜是什么？所谓“韭菜”，指的是在交易市场中没有赚到钱甚至赔钱的势单力薄的散户。另外一个特征就是，他们严重缺乏基本的阅读能力。他们是那种买一辈子东西都不读产品说明书的人，他们是那种无论拿到什么，都要问别人怎么用的
+                            
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2018-10-18
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-01-19
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%95%E8%B5%84/" class="post-category">
-                                    投资
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/" class="post-category">
+                                    技术团队管理
                                 </a>
                             
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">读书笔记</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -851,48 +726,37 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2018/09/28/ru-he-xuan-ze-cheng-chang-gu-du-shu-bi-ji/">
+                <a href="/56109.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="如何选择成长股-读书笔记">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="技术团队管理-项目管理">
                         
-                        <span class="card-title">如何选择成长股-读书笔记</span>
+                        <span class="card-title">技术团队管理-项目管理</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            摘要在摘录的同时会记录我的思考。
-
-购买链接：《怎样选择成长股（珍藏版）》(菲利普·A·费舍)- 京东图书
-
-寻找优良普通股的15点原则原则1：这家公司的产品或者服务有没有充分的市场潜力，至少几年内营业额能否大幅成长？那些数十年来一直保持着
+                            基于JIRA来做项目管理产品需求、技术优化、故障修复，都要建JIRA，描述清楚要做的事情，没有JIRA不开发，JIRA链接要发项目群里，故障修复、技术优化可能没项目群，就发到团队群里。项目群，涉及的人员有相关PM、RD、QA。
+关于JIRA
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-19
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E6%8A%95%E8%B5%84/" class="post-category">
-                                    投资
+                            <a href="/categories/%E6%8A%80%E6%9C%AF%E5%9B%A2%E9%98%9F%E7%AE%A1%E7%90%86/" class="post-category">
+                                    技术团队管理
                                 </a>
                             
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">读书笔记</span>
-                    </a>
-                    
                 </div>
                 
             </div>
