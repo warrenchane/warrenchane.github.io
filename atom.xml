@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://warrenchane.com/"/>
-  <updated>2020-01-24T13:27:15.526Z</updated>
+  <updated>2020-02-07T05:00:38.938Z</updated>
   <id>https://warrenchane.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>投机备忘录</title>
-    <link href="https://warrenchane.com/38601.html"/>
-    <id>https://warrenchane.com/38601.html</id>
-    <published>2020-01-24T11:43:58.000Z</published>
-    <updated>2020-01-24T13:27:15.526Z</updated>
+    <title>直播技术</title>
+    <link href="https://warrenchane.com/22673.html"/>
+    <id>https://warrenchane.com/22673.html</id>
+    <published>2020-02-04T09:03:57.000Z</published>
+    <updated>2020-02-07T05:00:38.938Z</updated>
     
     <summary type="html">
     
@@ -29,8 +29,101 @@
       
         
         
-          &lt;h1 id=&quot;历史学是未来学&quot;&gt;&lt;a href=&quot;#历史学是未来学&quot; class=&quot;headerlink&quot; title=&quot;历史学是未来学&quot;&gt;&lt;/a&gt;历史学是未来学&lt;/h1&gt;&lt;p&gt;只有知道过去，才能洞见未来。&lt;/p&gt;
-&lt;h1 id=&quot;2019年&quot;&gt;&lt;a
+          &lt;h1 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://zhuanlan.zhihu.com/p/23090320&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>learning-selenium</title>
+    <link href="https://warrenchane.com/34939.html"/>
+    <id>https://warrenchane.com/34939.html</id>
+    <published>2020-02-04T05:58:25.000Z</published>
+    <updated>2020-02-04T09:03:16.370Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h1&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>自动化测试之路</title>
+    <link href="https://warrenchane.com/29471.html"/>
+    <id>https://warrenchane.com/29471.html</id>
+    <published>2020-02-03T05:17:38.000Z</published>
+    <updated>2020-02-03T05:53:57.923Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;什么是自动化测试&quot;&gt;&lt;a href=&quot;#什么是自动化测试&quot; class=&quot;headerlink&quot; title=&quot;什么是自动化测试&quot;&gt;&lt;/a&gt;什么是自动化测试&lt;/h1&gt;&lt;h1 id=&quot;为什么要做自动化测试&quot;&gt;&lt;a href=&quot;#为什么要做自动化测试&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>web-开发最佳实践</title>
+    <link href="https://warrenchane.com/42412.html"/>
+    <id>https://warrenchane.com/42412.html</id>
+    <published>2020-02-01T04:15:27.000Z</published>
+    <updated>2020-02-02T12:33:29.951Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Cookies-与-Session&quot;&gt;&lt;a href=&quot;#Cookies-与-Session&quot; class=&quot;headerlink&quot; title=&quot;Cookies 与 Session&quot;&gt;&lt;/a&gt;Cookies 与
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Java" scheme="https://warrenchane.com/categories/Java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>投机备忘录</title>
+    <link href="https://warrenchane.com/38601.html"/>
+    <id>https://warrenchane.com/38601.html</id>
+    <published>2020-01-24T11:43:58.000Z</published>
+    <updated>2020-02-03T13:15:50.771Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;历史学是未来学&quot;&gt;&lt;a href=&quot;#历史学是未来学&quot; class=&quot;headerlink&quot;
         
       
     
@@ -101,7 +194,7 @@
     <link href="https://warrenchane.com/37156.html"/>
     <id>https://warrenchane.com/37156.html</id>
     <published>2020-01-19T06:37:33.000Z</published>
-    <updated>2020-01-24T13:47:18.515Z</updated>
+    <updated>2020-01-24T15:15:51.256Z</updated>
     
     <summary type="html">
     
@@ -109,7 +202,7 @@
       
         
         
-          &lt;h1 id=&quot;为什么要实行绩效管理&quot;&gt;&lt;a href=&quot;#为什么要实行绩效管理&quot; class=&quot;headerlink&quot; title=&quot;为什么要实行绩效管理&quot;&gt;&lt;/a&gt;为什么要实行绩效管理&lt;/h1&gt;&lt;p&gt;下图为阿里巴巴的价值观绩效图&lt;br&gt;&lt;img
+          &lt;h1 id=&quot;为什么要实行绩效管理&quot;&gt;&lt;a href=&quot;#为什么要实行绩效管理&quot; class=&quot;headerlink&quot;
         
       
     
@@ -173,11 +266,36 @@
   </entry>
   
   <entry>
+    <title>《事实》读书笔记</title>
+    <link href="https://warrenchane.com/46991.html"/>
+    <id>https://warrenchane.com/46991.html</id>
+    <published>2020-01-18T10:37:46.000Z</published>
+    <updated>2020-02-07T07:17:11.340Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;简评&quot;&gt;&lt;a href=&quot;#简评&quot; class=&quot;headerlink&quot; title=&quot;简评&quot;&gt;&lt;/a&gt;简评&lt;/h2&gt;&lt;p&gt;这是2019年读到的好书，本书的作者是[瑞典]
+        
+      
+    
+    </summary>
+    
+    
+      <category term="读书" scheme="https://warrenchane.com/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>learning-spider</title>
     <link href="https://warrenchane.com/63944.html"/>
     <id>https://warrenchane.com/63944.html</id>
     <published>2020-01-17T04:02:36.000Z</published>
-    <updated>2020-01-19T07:01:34.580Z</updated>
+    <updated>2020-02-01T04:10:40.247Z</updated>
     
     <summary type="html">
     
@@ -195,36 +313,7 @@
       <category term="python" scheme="https://warrenchane.com/categories/python/"/>
     
     
-      <category term="自动化测试" scheme="https://warrenchane.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/"/>
-    
       <category term="爬虫" scheme="https://warrenchane.com/tags/%E7%88%AC%E8%99%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>tq-learning</title>
-    <link href="https://warrenchane.com/12687.html"/>
-    <id>https://warrenchane.com/12687.html</id>
-    <published>2020-01-16T12:08:49.000Z</published>
-    <updated>2020-01-19T07:01:34.585Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;TqSdk&quot;&gt;&lt;a href=&quot;#TqSdk&quot; class=&quot;headerlink&quot; title=&quot;TqSdk&quot;&gt;&lt;/a&gt;TqSdk&lt;/h1&gt;&lt;p&gt;官方文档：&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="python" scheme="https://warrenchane.com/categories/python/"/>
-    
-    
-      <category term="futures" scheme="https://warrenchane.com/tags/futures/"/>
     
   </entry>
   
@@ -233,7 +322,7 @@
     <link href="https://warrenchane.com/13066.html"/>
     <id>https://warrenchane.com/13066.html</id>
     <published>2020-01-14T12:09:54.000Z</published>
-    <updated>2020-01-20T02:52:59.060Z</updated>
+    <updated>2020-02-07T05:00:00.229Z</updated>
     
     <summary type="html">
     
@@ -241,8 +330,7 @@
       
         
         
-          &lt;h2 id=&quot;心即理&quot;&gt;&lt;a href=&quot;#心即理&quot; class=&quot;headerlink&quot; title=&quot;心即理&quot;&gt;&lt;/a&gt;心即理&lt;/h2&gt;&lt;p&gt;龙场悟道&lt;/p&gt;
-&lt;h2 id=&quot;致良知&quot;&gt;&lt;a href=&quot;#致良知&quot; class=&quot;headerlink&quot;
+          &lt;h1 id=&quot;为什么要学王阳明&quot;&gt;&lt;a href=&quot;#为什么要学王阳明&quot; class=&quot;headerlink&quot;
         
       
     
@@ -343,11 +431,38 @@
   </entry>
   
   <entry>
+    <title>《奥马哈之雾》读书笔记</title>
+    <link href="https://warrenchane.com/56009.html"/>
+    <id>https://warrenchane.com/56009.html</id>
+    <published>2018-09-28T09:51:17.000Z</published>
+    <updated>2020-02-07T07:12:17.054Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;七层塔&quot;&gt;&lt;a href=&quot;#七层塔&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="投资" scheme="https://warrenchane.com/categories/%E6%8A%95%E8%B5%84/"/>
+    
+    
+      <category term="读书笔记" scheme="https://warrenchane.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>如何选择成长股-读书笔记</title>
     <link href="https://warrenchane.com/50275.html"/>
     <id>https://warrenchane.com/50275.html</id>
     <published>2018-09-28T09:37:25.000Z</published>
-    <updated>2020-01-19T07:01:34.586Z</updated>
+    <updated>2020-02-07T07:23:59.338Z</updated>
     
     <summary type="html">
     
@@ -381,56 +496,6 @@
     
     
       <category term="笔记" scheme="https://warrenchane.com/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>微信公众号开发中控token服务</title>
-    <link href="https://warrenchane.com/54424.html"/>
-    <id>https://warrenchane.com/54424.html</id>
-    <published>2018-09-28T07:14:37.000Z</published>
-    <updated>2020-01-19T07:01:34.593Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;问题来源&quot;&gt;&lt;a href=&quot;#问题来源&quot; class=&quot;headerlink&quot; title=&quot;问题来源&quot;&gt;&lt;/a&gt;问题来源&lt;/h2&gt;&lt;p&gt;先推荐一个工具包：&lt;br&gt;&lt;a href=&quot;https://github.com/Wechat-Group/weixin-java-tools?utm_source=gold_browser_extension&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Wechat-Group/weixin-java-tools: 全能微信Java开发工具包，支持包括微信支付、开放平台、小程序、企业微信/企业号和公众号等的开发&lt;/a&gt;&lt;br&gt;以微信公众号开发为例，来说明我们所遇到的问题。&lt;br&gt;我们在进行微信公众号开发时，往往会拆分为多个服务，每个服务负责不同的功能，但是公众号的认证id和秘钥只有一套，这个时候如果每个服务都独自去生成access_token，就会浪费access_token的生成次数，以及会失效之前的token。这个时候需要一个独立服务来生成以及管理access_token，其余服务只需要去这个服务取token就行了。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Java" scheme="https://warrenchane.com/categories/Java/"/>
-    
-    
-      <category term="微信开发" scheme="https://warrenchane.com/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>swagger+yapi使用笔记</title>
-    <link href="https://warrenchane.com/53387.html"/>
-    <id>https://warrenchane.com/53387.html</id>
-    <published>2018-09-28T03:00:51.000Z</published>
-    <updated>2020-01-19T07:01:34.578Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;写接口文档对于RD来说是件非常烦心的事情，而且随着需求迭代，人员流动，接口文档的编写一般面临以下问题：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;没有及时编写&lt;/li&gt;
-&lt;li&gt;没有及时更新&lt;/li&gt;
-&lt;li&gt;文档零散错落在不同的页面&lt;/li&gt;
-&lt;li&gt;因编写人的行为习惯而又显著的差异&lt;/li&gt;
-&lt;li&gt;因人员流动，交接时不太方便，在wiki中的文档或者word文档比较难自动mock&lt;/li&gt;&lt;/ul&gt;
-    
-    </summary>
-    
-    
-      <category term="Java" scheme="https://warrenchane.com/categories/Java/"/>
-    
-    
-      <category term="yapi" scheme="https://warrenchane.com/tags/yapi/"/>
-    
-      <category term="swagger" scheme="https://warrenchane.com/tags/swagger/"/>
     
   </entry>
   

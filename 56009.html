@@ -4,18 +4,11 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="tq-learning, 少即是多">
-    <meta name="description" content="TqSdk官方文档：TqSdk 介绍 — TianQin Python SDK 1.5.1 文档对照米匡学习：介绍 — rqalpha 3.4.x 文档
-安装pip install tqsdk
-基础属性交易所代码
+    <meta name="keywords" content="《奥马哈之雾》读书笔记, 少即是多">
+    <meta name="description" content="七层塔
+塔层1：将股票看做生意的一部分塔层2：正确对待股价波动塔层3：安全边际塔层4：对“超级明星”的集中投资塔层5：选择性逆向操作塔层6：有所不为塔层7：低摩擦成本下的复利追求
 
-
-交易所
-代码
-
-
-
-X">
+四把尺（四只脚）我们所希望的投资对象是：一是我们所了解的；">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -23,7 +16,7 @@ X">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>tq-learning | 少即是多</title>
+    <title>《奥马哈之雾》读书笔记 | 少即是多</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -229,12 +222,12 @@ X">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/0.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">tq-learning</h1>
+                    <h1 class="description center-align post-title">《奥马哈之雾》读书笔记</h1>
                 </div>
             </div>
         </div>
@@ -351,8 +344,8 @@ X">
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/futures/">
-                                <span class="chip bg-color">futures</span>
+                            <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">读书笔记</span>
                             </a>
                         
                     </div>
@@ -363,8 +356,8 @@ X">
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/python/" class="post-category">
-                                python
+                            <a href="/categories/%E6%8A%95%E8%B5%84/" class="post-category">
+                                投资
                             </a>
                         
                     </div>
@@ -376,28 +369,28 @@ X">
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-01-16
+                    2018-09-28
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-01-19
+                    2020-02-07
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    169
+                    1.2k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    4 分
                 </div>
                 
 
@@ -413,54 +406,47 @@ X">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="TqSdk"><a href="#TqSdk" class="headerlink" title="TqSdk"></a>TqSdk</h1><p>官方文档：<a href="https://doc.shinnytech.com/tqsdk/latest/intro.html" target="_blank" rel="noopener">TqSdk 介绍 — TianQin Python SDK 1.5.1 文档</a><br>对照米匡学习：<a href="http://rqalpha.io/zh_CN/latest/intro/overview.html" target="_blank" rel="noopener">介绍 — rqalpha 3.4.x 文档</a></p>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><pre class=" language-bash"><code class="language-bash">pip <span class="token function">install</span> tqsdk</code></pre>
-<h2 id="基础属性"><a href="#基础属性" class="headerlink" title="基础属性"></a>基础属性</h2><h3 id="交易所代码"><a href="#交易所代码" class="headerlink" title="交易所代码"></a>交易所代码</h3><table>
-<thead>
-<tr>
-<th>交易所</th>
-<th>代码</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>XSHE</td>
-<td>深交所</td>
-</tr>
-<tr>
-<td>XSHG</td>
-<td>上交所</td>
-</tr>
-<tr>
-<td>DCE</td>
-<td>大连商品交易所</td>
-</tr>
-<tr>
-<td>SHFE</td>
-<td>上海期货交易所</td>
-</tr>
-<tr>
-<td>CFFEX</td>
-<td>中国金融期货交易所</td>
-</tr>
-<tr>
-<td>CZCE</td>
-<td>郑州商品交易所</td>
-</tr>
-</tbody></table>
-<h3 id="期货合约代码"><a href="#期货合约代码" class="headerlink" title="期货合约代码"></a>期货合约代码</h3><table>
-<thead>
-<tr>
-<th>品种</th>
-<th>品种代码</th>
-<th>示例合约</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>白糖</td>
-<td>SR</td>
-<td>SR005表示白糖2005合约</td>
-</tr>
-</tbody></table>
+                <h3 id="七层塔"><a href="#七层塔" class="headerlink" title="七层塔"></a>七层塔</h3><blockquote>
+<p>塔层1：将股票看做生意的一部分<br>塔层2：正确对待股价波动<br>塔层3：安全边际<br>塔层4：对“超级明星”的集中投资<br>塔层5：选择性逆向操作<br>塔层6：有所不为<br>塔层7：低摩擦成本下的复利追求</p>
+</blockquote>
+<p>四把尺（四只脚）<br>我们所希望的投资对象是：<br>一是我们所了解的；<br>二是具有长期的远景；<br>三是由德才兼备的人来经营；<br>四是有非常吸引人的价格。</p>
+<p>重要的正确投资奠基石</p>
+<blockquote>
+<p>把股票当做许多细小的商业部分<br>把价格波动当做朋友而不是敌人<br>在买入价格上留有充足的安全边际</p>
+</blockquote>
+<p>关于安全边际<br>格雷厄姆提出的安全边际准则是以对公司内在价值的度量为基本前提的<br>后台巴菲特把他老师的纯量化（或纯财务）度量改成了以定性为主，定量为辅的评估模式。</p>
+<p>==TODO：什么是定量，什么是定性？定量考察哪些指标，定性考察哪些方向==</p>
+<p>安全边际的一般性潜台词：相对于公司较为稳定或没那么悲观的基本资产或基本情况市场由于出现非理性的过度反应，而给出了过低的估值。</p>
+<p>通用食品收购获利的因素：</p>
+<ol>
+<li>便宜的买进价格</li>
+<li>一个优秀的公司</li>
+<li>一群能干且注重股东权益的管理阶层</li>
+<li>愿意出高价的买主</li>
+</ol>
+<h3 id="龟兔赛跑"><a href="#龟兔赛跑" class="headerlink" title="龟兔赛跑"></a>龟兔赛跑</h3><p>一个真正的企业投资人应当忘记股票价格的短期变化，把主要注意力集中于公司的经营层面；即使你的目标是获取资本买入与卖出之间的差价，也应当以5-10年为一个周期来规划你的投资。<br>当然不仅仅是在投资领域，在我们生活中的其他方面，看待任何事情时，其视角都不应该太过于短期化。</p>
+<p>每股税前利润<br>巴菲特一直重“长期投资回报”而轻“年度经营回报”。<br>当一只股票卖出时，其资本利得计入当年损益，因此，在回报率保持不变的前提下，频繁换股就会同时导致“经营回报”的增加和“投资回报”的减少。–摩擦成本<br>由于巴菲特的经营目标是伯克希尔公司股东价值的长期最大化，而不是年度账面利润的提升，因此选择“现在我们宁愿留在原处不动”的投资策略。</p>
+<p>短期利润与长期回报之间的取舍：</p>
+<blockquote>
+<p>个人一再重申：已实现的资本利得对于分析伯克希尔公司来说，一点儿用处都没有，我们账上拥有大量的未实现资本利得，何时该将其实现，其考量点与某些特定日期的财务报表完全没有关联。</p>
+</blockquote>
+<p>关于四只脚的再论述<br>巴菲特的四只脚投资标准：</p>
+<ol>
+<li>我们能够了解 （<code>涉及对产业和产品繁简的判断</code>）</li>
+<li>良好的经济前景 （<code>涉及对“城堡”是否美丽，“护城河”是否宽广的判断</code>）</li>
+<li>德才兼备的管理人（<code>涉及对经营者道德品质和领导才能的判断</code>）</li>
+<li>吸引人的价格（<code>涉及对一家企业价值与价格是否匹配的判断</code>）</li>
+</ol>
+<p>卡片打洞思想：</p>
+<blockquote>
+<p>当你们离开学校以后，可以做一张印有20个圈的卡片，每次你们做完一个投资决策时，就在其中一个圈上打一个洞。那些打洞较少的人将会变得富有，原因在于如果你总能为大的想法而节省的话，你永远不会打光所有20个洞。</p>
+</blockquote>
+<p>如果用一句话来概括巴菲特的投资特质的话应该是“一个企业投资者”，企业投资与长期投资就是一个硬币的两面，不可分割。</p>
+<h3 id="边界"><a href="#边界" class="headerlink" title="边界"></a>边界</h3><p>纵观巴菲特作为职业投资人的经理，我们发觉他能成功的原因之一在于他对所有可能涉足的投资领域都先后为自己划出了有所不为的边界：</p>
+<blockquote>
+<p>告诉我会死在哪里，我就永远不会去那里。</p>
+</blockquote>
+<p>巴菲特的四只脚理论中，排在首位的就是能力边界的问题。<br>首先。“能力边界”<br>“只要一波大浪起来就可以撑起所有的船只” – 肯尼迪</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -504,7 +490,7 @@ X">
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://warrenchane.com/12687.html">https://warrenchane.com/12687.html</a>
+                    <a href="https://warrenchane.com/56009.html">https://warrenchane.com/56009.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -542,8 +528,8 @@ X">
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/futures/">
-                                    <span class="chip bg-color">futures</span>
+                                <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">读书笔记</span>
                                 </a>
                             
                         </div>
@@ -714,7 +700,7 @@ X">
         repo: 'warrenchane.github.io',
         owner: 'warrenchane',
         admin: "warrenchane",
-        id: '2020-01-16T20-08-49',
+        id: '2018-09-28T17-51-17',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -739,33 +725,33 @@ X">
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/63944.html">
+                <a href="/8294.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="learning-spider">
+                        <img src="/medias/featureimages/15.jpg" class="responsive-img" alt="《java8实战》笔记">
                         
-                        <span class="card-title">learning-spider</span>
+                        <span class="card-title">《java8实战》笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            需要学习的库Requests: 让 HTTP 服务人类 — Requests 2.18.1 文档
-Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation
-练练手免费
+                            lambda 表达式什么是lambda表达式我们可以吧lambda表达式理解为简洁地表示可传递的匿名函数的一种方式：它没有名称，但是有参数列表、函数主体、返回类型，可能还有一个可以抛出的异常列表。
+
+从上面的定义来看，lambda表达式有如
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-01-17
+                            <i class="far fa-clock fa-fw icon-date"></i>2018-09-30
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/python/" class="post-category">
-                                    python
+                            <a href="/categories/Java/" class="post-category">
+                                    Java
                                 </a>
                             
                             
@@ -775,12 +761,8 @@ Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E6%B5%8B%E8%AF%95/">
-                        <span class="chip bg-color">自动化测试</span>
-                    </a>
-                    
-                    <a href="/tags/%E7%88%AC%E8%99%AB/">
-                        <span class="chip bg-color">爬虫</span>
+                    <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">读书笔记</span>
                     </a>
                     
                 </div>
@@ -794,50 +776,34 @@ Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/13066.html">
+                <a href="/50275.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="王阳明-心学">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="如何选择成长股-读书笔记">
                         
-                        <span class="card-title">王阳明-心学</span>
+                        <span class="card-title">如何选择成长股-读书笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            心即理龙场悟道
-致良知江西平叛
-
-破山中贼易，破心中贼难
-
-知行合一
-
-知与行本身就是一体一念发动处即是行
+                            摘要在摘录的同时会记录我的思考。
 
 
-四句教南征广西
-
-无善无恶心之体有善有恶意之动知善知恶是良知为善去恶是格物
-
-
-        document.querySe
+寻找优良普通股的15点原则原则1：这家公司的产品或者服务有没有充分的市场潜力，至少几年内营业额能否大幅成长？那些数十年来一直保持着惊人的增长速度的公司可以分为两组，一组名叫“由于幸运而有能力”，另一组称
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-01-14
+                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-28
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%93%B2%E5%AD%A6/" class="post-category">
-                                    哲学
-                                </a>
-                            
-                            <a href="/categories/%E5%93%B2%E5%AD%A6/%E5%BF%83%E5%AD%A6/" class="post-category">
-                                    心学
+                            <a href="/categories/%E6%8A%95%E8%B5%84/" class="post-category">
+                                    投资
                                 </a>
                             
                             
@@ -847,8 +813,8 @@ Beautiful Soup Documentation — Beautiful Soup 4.4.0 documentation
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%8E%8B%E9%98%B3%E6%98%8E/">
-                        <span class="chip bg-color">王阳明</span>
+                    <a href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">读书笔记</span>
                     </a>
                     
                 </div>
@@ -999,7 +965,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">28.8k</span>&nbsp;字
+                class="white-color">35.2k</span>&nbsp;字
             
             
             
