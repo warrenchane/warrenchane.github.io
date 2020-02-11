@@ -8,8 +8,7 @@
     <meta name="description" content="Cookies 与 Session
 当请求成功以后，服务端会告诉客户端设置哪些Cookies信息，在后续访问页面时，客户端把Cookies信息传递给服务端。
 
-
-        document.querySelectorAll(&#39;.git">
+由于http协议是无状态的协议，为了能够记住请求的状态，于是引入了Session">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -373,14 +372,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-02-02
+                    2020-02-10
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    99
+                    293
                 </div>
                 
 
@@ -403,9 +402,12 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="Cookies-与-Session"><a href="#Cookies-与-Session" class="headerlink" title="Cookies 与 Session"></a>Cookies 与 Session</h2><blockquote>
+                <h1 id="Cookies-与-Session"><a href="#Cookies-与-Session" class="headerlink" title="Cookies 与 Session"></a>Cookies 与 Session</h1><blockquote>
 <p>当请求成功以后，服务端会告诉客户端设置哪些Cookies信息，在后续访问页面时，客户端把Cookies信息传递给服务端。</p>
 </blockquote>
+<p>由于http协议是无状态的协议，为了能够记住请求的状态，于是引入了Session和Cookie的机制，session是存在于服务器端的，在单体式应用中，他是由Tomcat管理的，存在于tomcat的内存中，当我们为了解决分布式场景中的session共享问题时，引入了redis，其共享内存，以及支持key自动过期的特性，非常契合session的特性。</p>
+<p>当然session的存储介质也可以是mysql或者mongo</p>
+<p>而cookie是存在客户端的，或者说存储在浏览器的。cookie并不常用。有一类特殊的Cookie却是我们需要额外关注的，那便是与session相关的sessionId，他是真正维系客户端和服务端的桥梁。</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -900,7 +902,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">35.2k</span>&nbsp;字
+                class="white-color">35.5k</span>&nbsp;字
             
             
             
