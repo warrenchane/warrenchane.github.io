@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://warrenchane.com/"/>
-  <updated>2020-02-07T07:43:30.909Z</updated>
+  <updated>2020-02-23T08:30:07.570Z</updated>
   <id>https://warrenchane.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spring-cloud实践</title>
+    <link href="https://warrenchane.com/22420.html"/>
+    <id>https://warrenchane.com/22420.html</id>
+    <published>2020-02-14T02:22:13.000Z</published>
+    <updated>2020-02-23T08:30:07.570Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;todo&quot;&gt;&lt;a href=&quot;#todo&quot; class=&quot;headerlink&quot; title=&quot;todo&quot;&gt;&lt;/a&gt;todo&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&quot;&quot; disabled=&quot;&quot; type=&quot;checkbox&quot;&gt; spring
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>直播技术</title>
@@ -477,27 +501,6 @@
     
     
       <category term="读书笔记" scheme="https://warrenchane.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>常见的经济学定律</title>
-    <link href="https://warrenchane.com/56118.html"/>
-    <id>https://warrenchane.com/56118.html</id>
-    <published>2018-09-28T09:24:45.000Z</published>
-    <updated>2020-01-19T07:01:34.587Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;马太效应&quot;&gt;&lt;a href=&quot;#马太效应&quot; class=&quot;headerlink&quot; title=&quot;马太效应&quot;&gt;&lt;/a&gt;马太效应&lt;/h2&gt;&lt;p&gt;《新约马太福音》中有这样一个故事，一个国王远行前，交给三个仆人每人一锭银子，吩咐他们：”你们去做生意，等我回来时，再来见我。”国王回来时，第一个仆人说：”主人，你交给我们的一锭银子，我已赚了10锭。”于是国王奖励他10座城邑。第二个仆人报告说：”主人，你给我的一锭银子，我已赚了5锭。”于是国王例奖励了他5座城邑。第三个仆人报告说：”主人，你给我的一锭银子，我一直包在手巾里存着，我怕丢失，一直没有拿出来。”于是国王命令将第三个仆人的一锭银子也赏给第一个仆人，并且说：”凡是少的，就连他所有的也要夺过来。凡是多的，还要给他，叫他多多益善。”&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="经济学" scheme="https://warrenchane.com/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/"/>
-    
-    
-      <category term="笔记" scheme="https://warrenchane.com/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
