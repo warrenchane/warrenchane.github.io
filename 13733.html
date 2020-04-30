@@ -4,8 +4,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="微信公众号开发中控token服务, 少即是多">
-    <meta name="description" content="问题来源先推荐一个工具包：Wechat-Group/weixin-java-tools: 全能微信Java开发工具包，支持包括微信支付、开放平台、小程序、企业微信/企业号和公众号等的开发以微信公众号开发为例，来说明我们所遇到的问题。我们在进">
+    <meta name="keywords" content="apache-flink, 少即是多">
+    <meta name="description" content="官方文档分布式运行环境flink 运行时包含两类进程：
+
+JobManagers(也称为master)协调分布式计算，他们负责调度任务、协调checkpoints、协调故障恢复每个Job至少有一个JobManger，高可用部署下会有多个Jo">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +15,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>微信公众号开发中控token服务 | 少即是多</title>
+    <title>apache-flink | 少即是多</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -219,12 +221,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/1.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">微信公众号开发中控token服务</h1>
+                    <h1 class="description center-align post-title">apache-flink</h1>
                 </div>
             </div>
         </div>
@@ -339,25 +341,12 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                    <div class="article-tag">
-                        
-                            <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/">
-                                <span class="chip bg-color">微信开发</span>
-                            </a>
-                        
-                    </div>
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
                     
                 </div>
                 <div class="col s5 right-align">
-                    
-                    <div class="post-cate">
-                        <i class="fas fa-bookmark fa-fw icon-category"></i>
-                        
-                            <a href="/categories/Java/" class="post-category">
-                                Java
-                            </a>
-                        
-                    </div>
                     
                 </div>
             </div>
@@ -366,14 +355,14 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2018-09-28
+                    2020-03-13
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-01-19
+                    2020-04-10
                 </div>
                 
 
@@ -403,66 +392,91 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="问题来源"><a href="#问题来源" class="headerlink" title="问题来源"></a>问题来源</h2><p>先推荐一个工具包：<br><a href="https://github.com/Wechat-Group/weixin-java-tools?utm_source=gold_browser_extension" target="_blank" rel="noopener">Wechat-Group/weixin-java-tools: 全能微信Java开发工具包，支持包括微信支付、开放平台、小程序、企业微信/企业号和公众号等的开发</a><br>以微信公众号开发为例，来说明我们所遇到的问题。<br>我们在进行微信公众号开发时，往往会拆分为多个服务，每个服务负责不同的功能，但是公众号的认证id和秘钥只有一套，这个时候如果每个服务都独自去生成access_token，就会浪费access_token的生成次数，以及会失效之前的token。这个时候需要一个独立服务来生成以及管理access_token，其余服务只需要去这个服务取token就行了。</p>
-<a id="more"></a>
-
-<p>我们在进行微信公众号开发时，微信公众号平台会给开发者ID和开发者密码，这两个东西是用来做认证的(生成access_token)。<br>我们在进行微信开发的时候，调用微信接口时，微信官方是需要认证的，如下图所示，认证的基础信息为开发者ID以及开发者密码，用这两个东西可进行认证。<br>官方是这样说的：</p>
-<blockquote>
-<p>access_token是公众号的全局唯一接口调用凭据，公众号调用各接口时都需使用access_token。开发者需要进行妥善保存。access_token的存储至少要保留512个字符空间。access_token的有效期目前为2个小时，需定时刷新，重复获取将导致上次获取的access_token失效。<br>公众平台的API调用所需的access_token的使用及生成方式说明：<br>1、建议公众号开发者使用中控服务器统一获取和刷新Access_token，其他业务逻辑服务器所使用的access_token均来自于该中控服务器，不应该各自去刷新，否则容易造成冲突，导致access_token覆盖而影响业务；<br>2、目前Access_token的有效期通过返回的expire_in来传达，目前是7200秒之内的值。中控服务器需要根据这个有效时间提前去刷新新access_token。在刷新过程中，中控服务器可对外继续输出的老access_token，此时公众平台后台会保证在5分钟内，新老access_token都可用，这保证了第三方业务的平滑过渡；<br>3、Access_token的有效时间可能会在未来有调整，所以中控服务器不仅需要内部定时主动刷新，还需要提供被动刷新access_token的接口，这样便于业务服务器在API调用获知access_token已超时的情况下，可以触发access_token的刷新流程。</p>
+                <h1 id="官方文档"><a href="#官方文档" class="headerlink" title="官方文档"></a>官方文档</h1><h2 id="分布式运行环境"><a href="#分布式运行环境" class="headerlink" title="分布式运行环境"></a>分布式运行环境</h2><p>flink 运行时包含两类进程：</p>
+<ul>
+<li>JobManagers(也称为master)协调分布式计算，他们负责调度任务、协调checkpoints、协调故障恢复<br>每个Job至少有一个JobManger，高可用部署下会有多个JobManagers，其中一个作为leader，其余处于standby状态。</li>
+<li>TaskManagers（也称为workers）执行dataflow中的tasks（准确来说是subtasks），并且缓存和交换数据streams<br>每个Job至少会有一个TaskManager。<br><img src="https://blog-1254114069.cos.ap-beijing.myqcloud.com/blog/2020/03/24/15850321675486.jpg" alt=""><h2 id="Window"><a href="#Window" class="headerlink" title="Window"></a>Window</h2>Flink有3个内置window</li>
+<li>以事件数量驱动的Count Windows<h1 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h1></li>
+<li>framework</li>
+<li>distributed</li>
+<li>stateful</li>
+<li>bounded steam and unbounded stream<h2 id="导论"><a href="#导论" class="headerlink" title="导论"></a>导论</h2><h3 id="Flink-Application"><a href="#Flink-Application" class="headerlink" title="Flink Application"></a>Flink Application</h3><blockquote>
+<p>Stream：流，分为有限数据流和无限数据流。<br>State：状态，是计算过程中的数据信息，在容错回复和CheckPoint中有很重要的作用。流计算本质上是Incremental Processing，因此需要不断查询保持状态。<br>Time，分为Event time、Ingestion Time,Processing time,Flink的无限数据流是一个持续的过程，时间是我们判断业务状态是否滞后，数据处理是否及时的重要依据。<br>API，API通常分为三层，由上而下可分为SQL/Table API、DataStream API、ProcessFunction三层，API的表达能力及业务抽象能力都非常强大，但越接近SQL层，表达能力会逐步减弱，抽象能力会逐步增强。越往下越灵活。</p>
 </blockquote>
-<p>官方认证接口为：</p>
-<pre><code>https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&amp;appid=APPID&amp;secret=APPSECRET</code></pre><h2 id="token中控服务器架构图"><a href="#token中控服务器架构图" class="headerlink" title="token中控服务器架构图"></a>token中控服务器架构图</h2><p>思路：业务服务每次在请求微信公众平台接口时，先去token中控服务取一下access_token，然后拿着这个token去微信公众平台访问其他接口，如果返回token失效，业务服务自己告诉中控服务新生成一个access_token，然后用这个新的acces_token重新去请求微信接口。</p>
-<h2 id="如何实现token中控服务器？"><a href="#如何实现token中控服务器？" class="headerlink" title="如何实现token中控服务器？"></a>如何实现token中控服务器？</h2><p>引入jar包</p>
-<pre><code>&lt;dependency&gt;
-    &lt;groupId&gt;com.github.binarywang&lt;/groupId&gt;
-    &lt;artifactId&gt;weixin-java-mp&lt;/artifactId&gt;
-    &lt;version&gt;3.1.0&lt;/version&gt;
-&lt;/dependency&gt;</code></pre><p>设置一个web项目，只有这个项目有生成access_token的权限，也就是说只有这个项目有权去使用appId和appsecret调用access_token生成接口，其余服务调用这个服务生成access_token或者获取access_token。<br>中控服务提供两个接口：</p>
-<ul>
-<li>获取最新的access_token: 总是从redis中取出最新生成的access_token。</li>
-<li>生成新的access_token接口：这个接口需要加锁，这把锁的失效时间应该小于5分钟，因为微信access_token生成接口，新的token生成以后，老的token会在5分钟后失效，但是如果此时又有一个人调用了生成token的服务，第一个token会立即失效。</li>
+</li>
 </ul>
-<h2 id="封装SDK"><a href="#封装SDK" class="headerlink" title="封装SDK"></a>封装SDK</h2><p>业务方调用微信接口的流程，前面已经说清楚了，这里再重复一遍：</p>
-<ul>
-<li>先去中控服务取access_token。</li>
-<li>拿着这个access_token去微信服务调用接口。</li>
-<li>如果返回access_token失效，则进行重试。</li>
-<li>重试的流程为：调用中控服务的生成新access_token的接口，拿着返回的新token去访问微信接口，业务方可以控制重试的次数为3次。</li>
+<h3 id="Flink-Architecture"><a href="#Flink-Architecture" class="headerlink" title="Flink Architecture"></a>Flink Architecture</h3><p>有界与无界数据流：一套框架能处理两种数据集合<br>部署灵活：支持Yarn、K8S<br>极高可伸缩性：峰值达17亿条/s<br>极致流式处理性能：本地状态存储，极致性能优化，减少了网络IO，但是在生产过程中，状态需要远程备份，因为本地存储是有可能会宕机导致状态丢失。</p>
+<h3 id="Flink-Operation"><a href="#Flink-Operation" class="headerlink" title="Flink Operation"></a>Flink Operation</h3><ul>
+<li>7 x 24小高可用：一致性与高效性CheckPoint</li>
+<li>业务应用监控运维：WebUI、Metric<h3 id="如何学习Flink-高效学习的方法"><a href="#如何学习Flink-高效学习的方法" class="headerlink" title="如何学习Flink-高效学习的方法"></a>如何学习Flink-高效学习的方法</h3><h4 id="本地环境准备"><a href="#本地环境准备" class="headerlink" title="本地环境准备"></a>本地环境准备</h4>先搭建一个本地的环境，参考官网的教程<h4 id="学习建议"><a href="#学习建议" class="headerlink" title="学习建议"></a>学习建议</h4></li>
 </ul>
-<p>如果每个业务方服务都把这逻辑实现一遍，那就太傻了，所以势必要对其进行封装成SDK。所幸weixin-java-tools这个jar包已经实现了大部分的功能，我们只需进行很小的改动就可以实现我们的逻辑，这里不对weixin-java-tools里面的代码做过多的解释，下面贴出实现方案：</p>
-<pre class=" language-Java"><code class="language-Java">public class MyWxMpServiceImpl extends WxMpServiceHttpClientImpl {
-    private TokenClient tokenClient;
-    public MyWxMpServiceImpl(TokenClient tokenClient) {
-        this.tokenClient = tokenClient;
-    }
-    public String getAccessToken(boolean forceRefresh) throws WxErrorException {
-        Lock lock = this.getWxMpConfigStorage().getAccessTokenLock();
-
-        try {
-            lock.lock();
-            if (this.getWxMpConfigStorage().isAccessTokenExpired() || forceRefresh) {
-                String token = tokenClient.generateMpToken();
-                this.getWxMpConfigStorage().updateAccessToken(token, 100000);
-            }
-        } finally {
-            lock.unlock();
-        }
-
-        return this.getWxMpConfigStorage().getAccessToken();
-    }
-}
-</code></pre>
-<p>新建一个类继承WxMpServiceHttpClientImpl，重写getAccessToken方法，之前的getAccessToken是去微信官方接口取access_token，这里改为token中控服务取token，其中TokenClient为对token中控服务调用的封装，这里依赖注入进来。</p>
-<p>使用的代码如下：</p>
-<pre class=" language-java"><code class="language-java"><span class="token keyword">public</span> WxMpService <span class="token function">getWxMpService</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-        WxMpInMemoryConfigStorage configStorage <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">WxMpInMemoryConfigStorage</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        String mpToken <span class="token operator">=</span> tokenClient<span class="token punctuation">.</span><span class="token function">getMpToken</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        configStorage<span class="token punctuation">.</span><span class="token function">setAccessToken</span><span class="token punctuation">(</span>mpToken<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        configStorage<span class="token punctuation">.</span><span class="token function">setExpiresTime</span><span class="token punctuation">(</span>System<span class="token punctuation">.</span><span class="token function">currentTimeMillis</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">+</span> <span class="token number">100000000</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-        WxMpService service <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">MyWxMpServiceImpl</span><span class="token punctuation">(</span>tokenClient<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        service<span class="token punctuation">.</span><span class="token function">setWxMpConfigStorage</span><span class="token punctuation">(</span>configStorage<span class="token punctuation">)</span><span class="token punctuation">;</span>
-        <span class="token keyword">return</span> service<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span></code></pre>
+<ol>
+<li>先实践再理论</li>
+<li>横向扩展</li>
+<li>关注社区，多交流、多提问、多输出。</li>
+</ol>
+<h2 id="有状态流式处理引擎"><a href="#有状态流式处理引擎" class="headerlink" title="有状态流式处理引擎"></a>有状态流式处理引擎</h2><h3 id="什么是有状态流式处理"><a href="#什么是有状态流式处理" class="headerlink" title="什么是有状态流式处理"></a>什么是有状态流式处理</h3><p>传统批次处理方法：</p>
+<ul>
+<li>持续收取数据</li>
+<li>以时间作为划分数个批次档案的依据</li>
+<li>周期性执行批次运算</li>
+</ul>
+<p>理想方法：</p>
+<ul>
+<li><p>累积状态</p>
+</li>
+<li><p>时间：时间意味着引擎对于数据完整性有机制可以操控，当所有数据都完全接收到后，输出计算结果。</p>
+</li>
+<li><p>产生精准的数据</p>
+<p><img src="https://blog-1254114069.cos.ap-beijing.myqcloud.com/blog/2020/03/16/15843285965138.jpg" alt=""></p>
+</li>
+</ul>
+<h3 id="流式引擎有的特性"><a href="#流式引擎有的特性" class="headerlink" title="流式引擎有的特性"></a>流式引擎有的特性</h3><h4 id="状态容错"><a href="#状态容错" class="headerlink" title="状态容错"></a>状态容错</h4><ol>
+<li>如何保证精确一次(exactly-once guarantee)的容错保证？<br>快照：当前的数据与已处理数据的快照</li>
+<li>分布式状态容错如何做呢？<br>CheckPoint<br><img src="https://blog-1254114069.cos.ap-beijing.myqcloud.com/blog/2020/03/16/15843292496994.jpg" alt=""><h4 id="状态维护"><a href="#状态维护" class="headerlink" title="状态维护"></a>状态维护</h4>JVM Heap 状态后端<br>RocksDB 状态后端</li>
+</ol>
+<h4 id="Event-Time-处理"><a href="#Event-Time-处理" class="headerlink" title="Event-Time 处理"></a>Event-Time 处理</h4><p>何时才能输出运算结果。<br>流式引擎是一直在运算的，需要有事件来告诉引擎是否已经完整收到运算所需要的数据。<br>Watermarks：是Flink中的特殊事件。<br><img src="https://blog-1254114069.cos.ap-beijing.myqcloud.com/blog/2020/03/16/15843299977360.jpg" alt=""></p>
+<h4 id="状态保存与迁移"><a href="#状态保存与迁移" class="headerlink" title="状态保存与迁移"></a>状态保存与迁移</h4><p>流式应用是无时无刻都在运行的，运维上有几个重要的考量：</p>
+<ul>
+<li>改了bug，如何将之前的状态迁移到新的环境中来</li>
+<li>如何重新定义运行的平行化程度</li>
+<li>如何升级生产的版本</li>
+</ul>
+<p>Savepoint （保存点）：一个手动产生的检查点（CheckPoint）<br>保存点记录着流式应用中所有的状态。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>状态容错：精确一次保证，分布式快照</li>
+<li>可应付极大的状态量</li>
+<li>状态迁移：在应用重启时，可以恢复历史状态</li>
+<li>Event-time处理：用以定义何时才算收完了资料，产生结果。</li>
+</ul>
+<h2 id="Flink安装部署、环境配置"><a href="#Flink安装部署、环境配置" class="headerlink" title="Flink安装部署、环境配置"></a>Flink安装部署、环境配置</h2><p><a href="https://files.alicdn.com/tpsservice/4824447b829149c86bedd19424d05915.pdf" target="_blank" rel="noopener">Microsoft Word - Flink环境部署、应用配置及运行应用程序.docx</a></p>
+<p>Task是Flink中资源调度的最小单位。</p>
+<h2 id="DataStream-API"><a href="#DataStream-API" class="headerlink" title="DataStream API"></a>DataStream API</h2><h3 id="分布式流处理基础"><a href="#分布式流处理基础" class="headerlink" title="分布式流处理基础"></a>分布式流处理基础</h3><p><img src="https://blog-1254114069.cos.ap-beijing.myqcloud.com/blog/2020/03/17/15844129748141.jpg" alt=""><br>有向无环图<br>每一个节点都是一个算子单元</p>
+<p>在工业界一般更倾向于使用SQL API与Table API，但是DataStream API是底层，更加灵活也需要了解。</p>
+<h3 id="Flink-DataStream-API-概览"><a href="#Flink-DataStream-API-概览" class="headerlink" title="Flink DataStream API 概览"></a>Flink DataStream API 概览</h3><h2 id="状态管理"><a href="#状态管理" class="headerlink" title="状态管理"></a>状态管理</h2><h3 id="什么是状态"><a href="#什么是状态" class="headerlink" title="什么是状态"></a>什么是状态</h3><p>需要使用状态的场景：</p>
+<ul>
+<li>去重</li>
+<li>窗口计算</li>
+<li>机器学习/深度学习</li>
+<li>访问历史数据</li>
+</ul>
+<h3 id="为什么需要管理状态"><a href="#为什么需要管理状态" class="headerlink" title="为什么需要管理状态"></a>为什么需要管理状态</h3><p>最直接的方式，是把所有的状态都放在内存里面，但是存储容量有限制，需要备份和恢复，我们可能还需要横向扩展。</p>
+<h3 id="理想的状态管理"><a href="#理想的状态管理" class="headerlink" title="理想的状态管理"></a>理想的状态管理</h3><ul>
+<li>易用</li>
+<li>高效</li>
+<li>可靠</li>
+</ul>
+<h2 id="Table-API"><a href="#Table-API" class="headerlink" title="Table API"></a>Table API</h2><p><img src="https://blog-1254114069.cos.ap-beijing.myqcloud.com/blog/2020/03/18/15845269023349.jpg" alt=""><br>Table API &amp; SQL 的特性</p>
+<ul>
+<li>声明式——用户只关心做什么，不关心怎么做</li>
+<li>高性能——支持查询优化，可以获取更好的执行性能</li>
+<li>流批统一——相同的统计逻辑，既可以流模式运营，也可以批模式运行</li>
+<li>标准稳定——语义遵循SQL标准，不易变动</li>
+<li>易理解——所见即所得</li>
+</ul>
+<h1 id="TO-Learn"><a href="#TO-Learn" class="headerlink" title="TO Learn"></a>TO Learn</h1><h2 id="map-reduce"><a href="#map-reduce" class="headerlink" title="map-reduce"></a>map-reduce</h2><h2 id="HDFS"><a href="#HDFS" class="headerlink" title="HDFS"></a>HDFS</h2><h2 id="Metric"><a href="#Metric" class="headerlink" title="Metric"></a>Metric</h2><h2 id="Data-Driven"><a href="#Data-Driven" class="headerlink" title="Data Driven"></a>Data Driven</h2><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><p><a href="http://wuchong.me/" target="_blank" rel="noopener">Jark’s Blog</a><br><a href="https://ververica.cn/developers/flink-training-course1/" target="_blank" rel="noopener">Apache Flink 钉钉群直播教程-基础篇 - Ververica 资料</a></p>
+<h3 id="flink-k8s"><a href="#flink-k8s" class="headerlink" title="flink + k8s"></a>flink + k8s</h3><p><a href="http://shzhangji.com/cnblogs/2019/08/25/deploy-flink-job-cluster-on-kubernetes/" target="_blank" rel="noopener">使用 Kubernetes 部署 Flink 应用 | 张吉的博客</a><br><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.10/zh/ops/deployment/kubernetes.html" target="_blank" rel="noopener">Apache Flink 1.10 Documentation: Kubernetes 安装</a><br><a href="https://ci.apache.org/projects/flink/flink-docs-release-1.10/zh/ops/deployment/native_kubernetes.html" target="_blank" rel="noopener">Apache Flink 1.10 Documentation: Native Kubernetes 安装</a><br><a href="https://juejin.im/post/5e4fc0a06fb9a07ca4533f6a" target="_blank" rel="noopener">Flink 1.10 Native Kubernetes 原理与实践 - 掘金</a><br><a href="https://zhoukaibo.com/2020/02/18/Flink-1-10-Native-Kubernetes/" target="_blank" rel="noopener">Flink 1.10 Native Kubernetes 原理与实践 | Kaibo’s Blog</a><br><a href="https://k8s.imroc.io/bigdata-ai/flink-on-kubernetes/native-kubernetes/" target="_blank" rel="noopener">Native Kubernetes 模式部署</a><br><a href="https://zhoukaibo.com/2019/10/15/flink-yarn-k8s-principle-practice/" target="_blank" rel="noopener">Flink on Yarn / Kubernetes 原理剖析及实践 | Kaibo’s Blog</a></p>
+<h3 id="flink-Kafka"><a href="#flink-Kafka" class="headerlink" title="flink + Kafka"></a>flink + Kafka</h3><p><a href="https://colobu.com/2019/09/27/install-Kafka-on-Mac/" target="_blank" rel="noopener">在 MacOS 上安装 Kafka | 鸟窝</a><br><a href="https://ci.apache.org/projects/flink/flink-docs-stable/zh/dev/connectors/kafka.html" target="_blank" rel="noopener">Apache Flink 1.10 Documentation: Apache Kafka 连接器</a><br><a href="https://ci.apache.org/projects/flink/flink-docs-stable/zh/dev/connectors/kafka.html" target="_blank" rel="noopener">Apache Flink 1.10 Documentation: Apache Kafka 连接器</a></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -506,7 +520,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://warrenchane.com/54424.html">https://warrenchane.com/54424.html</a>
+                    <a href="https://warrenchane.com/13733.html">https://warrenchane.com/13733.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -543,11 +557,7 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            
-                                <a href="/tags/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/">
-                                    <span class="chip bg-color">微信开发</span>
-                                </a>
-                            
+                            <span class="chip bg-color">无标签</span>
                         </div>
                     
                 </div>
@@ -716,7 +726,7 @@
         repo: 'warrenchane.github.io',
         owner: 'warrenchane',
         admin: "warrenchane",
-        id: '2018-09-28T15-14-37',
+        id: '2020-03-13T17-07-14',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -741,44 +751,34 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/56118.html">
+                <a href="/34210.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="常见的经济学定律">
+                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="flink-常见问题解决">
                         
-                        <span class="card-title">常见的经济学定律</span>
+                        <span class="card-title">flink-常见问题解决</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            马太效应《新约马太福音》中有这样一个故事，一个国王远行前，交给三个仆人每人一锭银子，吩咐他们：”你们去做生意，等我回来时，再来见我。”国王回来时，第一个仆人说：”主人，你交给我们的一锭银子，我已赚了10锭。”于是国王奖励他10座城邑。第二个
+                            Example程序 NoClassDefFoundError 问题问题描述
+问题解决
+参考文章maven - Apache Flink WordCount Example - Exception in thread “main” java.
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2018-09-28
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-03-16
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E7%BB%8F%E6%B5%8E%E5%AD%A6/" class="post-category">
-                                    经济学
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            warrenchane
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -790,58 +790,33 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/53387.html">
+                <a href="/24504.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="swagger+yapi使用笔记">
+                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="大数据调研">
                         
-                        <span class="card-title">swagger+yapi使用笔记</span>
+                        <span class="card-title">大数据调研</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            写接口文档对于RD来说是件非常烦心的事情，而且随着需求迭代，人员流动，接口文档的编写一般面临以下问题：
-
-没有及时编写
-没有及时更新
-文档零散错落在不同的页面
-因编写人的行为习惯而又显著的差异
-因人员流动，交接时不太方便，在wiki中的文档
+                            根据数据处理的时效性，大数据处理系统可分为批式(batch)大数据和流式(streaming)大数据两类。其中，批式大数据又被称为历史大数据，流式大数据又被称为实时大数据。
+大数据处理系统现有的大数据处理系统可以分为两类：批处理大数据系统与
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2018-09-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-03-12
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/Java/" class="post-category">
-                                    Java
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            warrenchane
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/yapi/">
-                        <span class="chip bg-color">yapi</span>
-                    </a>
-                    
-                    <a href="/tags/swagger/">
-                        <span class="chip bg-color">swagger</span>
-                    </a>
-                    
-                    <a href="/tags/DONE/">
-                        <span class="chip bg-color">DONE</span>
-                    </a>
-                    
                 </div>
                 
             </div>

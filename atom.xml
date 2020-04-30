@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://warrenchane.com/"/>
-  <updated>2020-02-23T08:30:07.570Z</updated>
+  <updated>2020-03-16T08:54:51.226Z</updated>
   <id>https://warrenchane.com/</id>
   
   <author>
@@ -17,11 +17,150 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>flink-常见问题解决</title>
+    <link href="https://warrenchane.com/34210.html"/>
+    <id>https://warrenchane.com/34210.html</id>
+    <published>2020-03-16T08:52:06.000Z</published>
+    <updated>2020-03-16T08:54:51.226Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Example程序-NoClassDefFoundError-问题&quot;&gt;&lt;a href=&quot;#Example程序-NoClassDefFoundError-问题&quot; class=&quot;headerlink&quot; title=&quot;Example程序
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>apache-flink</title>
+    <link href="https://warrenchane.com/13733.html"/>
+    <id>https://warrenchane.com/13733.html</id>
+    <published>2020-03-13T09:07:14.000Z</published>
+    <updated>2020-04-10T08:59:01.055Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;官方文档&quot;&gt;&lt;a href=&quot;#官方文档&quot; class=&quot;headerlink&quot; title=&quot;官方文档&quot;&gt;&lt;/a&gt;官方文档&lt;/h1&gt;&lt;h2 id=&quot;分布式运行环境&quot;&gt;&lt;a href=&quot;#分布式运行环境&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>大数据调研</title>
+    <link href="https://warrenchane.com/24504.html"/>
+    <id>https://warrenchane.com/24504.html</id>
+    <published>2020-03-12T02:49:49.000Z</published>
+    <updated>2020-03-13T06:39:42.655Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;根据数据处理的时效性，大数据处理系统可分为批式(batch)大数据和流式(streaming)大数据两类。其中，批式大数据又被称为历史大数据，流式大数据又被称为实时大数据。&lt;/p&gt;
+&lt;h2 id=&quot;大数据处理系统&quot;&gt;&lt;a href=&quot;#大数据处理系统&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>learning-vuejs</title>
+    <link href="https://warrenchane.com/26790.html"/>
+    <id>https://warrenchane.com/26790.html</id>
+    <published>2020-03-10T03:30:17.000Z</published>
+    <updated>2020-03-11T12:03:16.394Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;基础&quot;&gt;&lt;a href=&quot;#基础&quot; class=&quot;headerlink&quot; title=&quot;基础&quot;&gt;&lt;/a&gt;基础&lt;/h1&gt;&lt;h2 id=&quot;实例属性和方法&quot;&gt;&lt;a href=&quot;#实例属性和方法&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>AB-Test之路</title>
+    <link href="https://warrenchane.com/17956.html"/>
+    <id>https://warrenchane.com/17956.html</id>
+    <published>2020-03-09T07:31:43.000Z</published>
+    <updated>2020-03-11T03:00:16.871Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Ab测试介绍&quot;&gt;&lt;a href=&quot;#Ab测试介绍&quot; class=&quot;headerlink&quot; title=&quot;Ab测试介绍&quot;&gt;&lt;/a&gt;Ab测试介绍&lt;/h1&gt;&lt;h2 id=&quot;什么是AB测试&quot;&gt;&lt;a href=&quot;#什么是AB测试&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>k8s-learning</title>
+    <link href="https://warrenchane.com/12577.html"/>
+    <id>https://warrenchane.com/12577.html</id>
+    <published>2020-03-02T07:18:11.000Z</published>
+    <updated>2020-03-11T03:00:16.871Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;参考资料&quot;&gt;&lt;a href=&quot;#参考资料&quot; class=&quot;headerlink&quot; title=&quot;参考资料&quot;&gt;&lt;/a&gt;参考资料&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.hi-linux.com/posts/44953.html&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>spring-cloud实践</title>
     <link href="https://warrenchane.com/22420.html"/>
     <id>https://warrenchane.com/22420.html</id>
     <published>2020-02-14T02:22:13.000Z</published>
-    <updated>2020-02-23T08:30:07.570Z</updated>
+    <updated>2020-03-11T03:00:16.872Z</updated>
     
     <summary type="html">
     
@@ -114,7 +253,7 @@
     <link href="https://warrenchane.com/42412.html"/>
     <id>https://warrenchane.com/42412.html</id>
     <published>2020-02-01T04:15:27.000Z</published>
-    <updated>2020-02-10T03:00:35.004Z</updated>
+    <updated>2020-02-23T08:26:37.454Z</updated>
     
     <summary type="html">
     
@@ -139,7 +278,7 @@
     <link href="https://warrenchane.com/38601.html"/>
     <id>https://warrenchane.com/38601.html</id>
     <published>2020-01-24T11:43:58.000Z</published>
-    <updated>2020-02-03T13:15:50.771Z</updated>
+    <updated>2020-04-21T06:17:45.234Z</updated>
     
     <summary type="html">
     
@@ -162,7 +301,7 @@
     <link href="https://warrenchane.com/42527.html"/>
     <id>https://warrenchane.com/42527.html</id>
     <published>2020-01-20T03:34:35.000Z</published>
-    <updated>2020-01-24T11:35:32.870Z</updated>
+    <updated>2020-01-24T15:15:52.820Z</updated>
     
     <summary type="html">
     
@@ -243,7 +382,7 @@
     <link href="https://warrenchane.com/59106.html"/>
     <id>https://warrenchane.com/59106.html</id>
     <published>2020-01-19T06:33:30.000Z</published>
-    <updated>2020-01-24T08:31:09.252Z</updated>
+    <updated>2020-01-24T15:15:54.145Z</updated>
     
     <summary type="html">
     
@@ -369,138 +508,6 @@
       <category term="王阳明" scheme="https://warrenchane.com/tags/%E7%8E%8B%E9%98%B3%E6%98%8E/"/>
     
       <category term="TODO" scheme="https://warrenchane.com/tags/TODO/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用hexo+mweb进行高效写作</title>
-    <link href="https://warrenchane.com/9554.html"/>
-    <id>https://warrenchane.com/9554.html</id>
-    <published>2019-09-26T10:53:31.000Z</published>
-    <updated>2020-01-19T07:01:34.590Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h3&gt;&lt;p&gt;上一篇文章中已经介绍如何基于hexo + github-pages搭建自己的博客站点，搭建和部署是及其简单的，困难的是把写作这件事情坚持下来。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="工具" scheme="https://warrenchane.com/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-      <category term="hexo" scheme="https://warrenchane.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>企业财务报表分析-张新民</title>
-    <link href="https://warrenchane.com/64298.html"/>
-    <id>https://warrenchane.com/64298.html</id>
-    <published>2018-10-18T14:56:01.000Z</published>
-    <updated>2020-01-19T07:01:34.582Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;财务报表&quot;&gt;&lt;a href=&quot;#财务报表&quot; class=&quot;headerlink&quot; title=&quot;财务报表&quot;&gt;&lt;/a&gt;财务报表&lt;/h1&gt;&lt;h2 id=&quot;资产负债表&quot;&gt;&lt;a href=&quot;#资产负债表&quot; class=&quot;headerlink&quot; title=&quot;资产负债表&quot;&gt;&lt;/a&gt;资产负债表&lt;/h2&gt;&lt;p&gt;资产=负债+股东权益&lt;br&gt;右边归结起来一句话：资源的权益归属。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="投资" scheme="https://warrenchane.com/categories/%E6%8A%95%E8%B5%84/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>韭菜的自我修养-读书笔记</title>
-    <link href="https://warrenchane.com/11332.html"/>
-    <id>https://warrenchane.com/11332.html</id>
-    <published>2018-10-18T10:34:40.000Z</published>
-    <updated>2020-01-19T07:01:34.597Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;a href=&quot;https://book.douban.com/subject/30314653/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;韭菜的自我修养 (豆瓣)&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;韭菜是什么？&lt;br&gt;所谓“韭菜”，指的是在交易市场中没有赚到钱甚至赔钱的势单力薄的散户。&lt;br&gt;另外一个特征就是，他们严重缺乏基本的阅读能力。他们是那种买一辈子东西都不读产品说明书的人，他们是那种无论拿到什么，都要问别人怎么用的人……&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;
-    
-    </summary>
-    
-    
-      <category term="投资" scheme="https://warrenchane.com/categories/%E6%8A%95%E8%B5%84/"/>
-    
-    
-      <category term="读书笔记" scheme="https://warrenchane.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《java8实战》笔记</title>
-    <link href="https://warrenchane.com/8294.html"/>
-    <id>https://warrenchane.com/8294.html</id>
-    <published>2018-09-30T07:23:23.000Z</published>
-    <updated>2020-01-19T07:01:34.591Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h1 id=&quot;lambda-表达式&quot;&gt;&lt;a href=&quot;#lambda-表达式&quot; class=&quot;headerlink&quot; title=&quot;lambda 表达式&quot;&gt;&lt;/a&gt;lambda 表达式&lt;/h1&gt;&lt;h2 id=&quot;什么是lambda表达式&quot;&gt;&lt;a href=&quot;#什么是lambda表达式&quot; class=&quot;headerlink&quot; title=&quot;什么是lambda表达式&quot;&gt;&lt;/a&gt;什么是lambda表达式&lt;/h2&gt;&lt;p&gt;我们可以吧lambda表达式理解为简洁地表示可传递的匿名函数的一种方式：它没有名称，但是有&lt;code&gt;参数列表&lt;/code&gt;、&lt;code&gt;函数主体&lt;/code&gt;、&lt;code&gt;返回类型&lt;/code&gt;，可能还有一个&lt;code&gt;可以抛出的异常列表&lt;/code&gt;。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Java" scheme="https://warrenchane.com/categories/Java/"/>
-    
-    
-      <category term="读书笔记" scheme="https://warrenchane.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《奥马哈之雾》读书笔记</title>
-    <link href="https://warrenchane.com/56009.html"/>
-    <id>https://warrenchane.com/56009.html</id>
-    <published>2018-09-28T09:51:17.000Z</published>
-    <updated>2020-02-07T07:12:17.054Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;七层塔&quot;&gt;&lt;a href=&quot;#七层塔&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="投资" scheme="https://warrenchane.com/categories/%E6%8A%95%E8%B5%84/"/>
-    
-    
-      <category term="读书笔记" scheme="https://warrenchane.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>如何选择成长股-读书笔记</title>
-    <link href="https://warrenchane.com/50275.html"/>
-    <id>https://warrenchane.com/50275.html</id>
-    <published>2018-09-28T09:37:25.000Z</published>
-    <updated>2020-02-07T07:23:59.338Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot; title=&quot;摘要&quot;&gt;&lt;/a&gt;摘要&lt;/h2&gt;&lt;p&gt;在摘录的同时会记录我的思考。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="投资" scheme="https://warrenchane.com/categories/%E6%8A%95%E8%B5%84/"/>
-    
-    
-      <category term="读书笔记" scheme="https://warrenchane.com/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
